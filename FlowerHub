@@ -1,1 +1,1690 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local G={"\050\113\051\049\110\109\057\098\054\068\065\051\108\068\074\051\110\068\090\061";"\072\068\119\109\055\099\052\079\099\097\110\069\076\113\104\082","\099\110\105\080\110\108\053\074\118\109\099\089\110\097\118\075","\088\103\065\089\054\072\061\061","\105\097\099\089\102\108\099\089\088\047\112\085\088\086\074\065","\102\103\099\068\110\115\085\047\108\067\061\061";"\105\086\082\075\054\109\057\106","\102\109\099\075";"\099\068\057\117\105\089\057\115\083\082\085\088\076\086\072\080";"\105\109\054\098\073\069\061\061";"\054\097\119\085\073\109\118\098";"\076\115\112\089\105\113\073\065\073\067\061\061";"\099\109\082\106\105\109\099\080\114\113\112\065\073\109\099\070\073\109\099\068\114\072\061\061","\088\070\043\097\102\065\054\101\073\099\088\074\072\111\043\103\090\069\061\061";"\102\109\057\085\054\115\118\089\105\086\065\075\054\069\061\061";"\102\121\113\061","\102\121\114\061","\105\111\112\080\055\108\051\103";"\090\121\073\069\054\115\099\097\099\069\061\061","\048\100\078\065\054\101\098\104\048\078\061\061";"\088\097\057\075\088\097\082\089","\054\086\074\056\102\111\114\061";"\073\108\051\069\088\108\118\084";"\110\103\043\118\088\086\072\089\048\110\057\053\090\121\054\051\118\115\072\061","\110\109\098\120\118\070\118\049\050\068\114\089\112\121\065\076\108\067\061\061";"\047\119\057\053\054\108\120\061";"\054\097\082\106\054\072\061\061","\073\109\057\049\073\115\052\104\102\086\105\061";"\102\050\082\054\088\047\082\088\054\108\118\077\055\109\057\104\048\067\061\061";"\047\119\057\104\102\086\112\065\083\067\061\061","\054\111\118\119\088\078\061\061";"","\072\070\099\069\112\089\089\120\083\050\054\121\099\049\082\069\073\078\061\061","\112\065\099\055\110\049\067\089\099\111\054\119\088\111\085\115\112\103\098\061";"\105\109\118\085\102\109\069\061";"\054\047\052\080\102\111\114\061";"\088\097\085\085\105\078\061\061","\099\113\082\051\112\108\085\113\118\103\099\098\099\089\089\080\110\072\061\061";"\047\119\057\106\054\047\112\085\073\109\082\100\102\109\110\061";"\110\088\048\075\054\109\117\079\084\076\085\081\114\102\098\111\101\055\050\068\047\084\102\049\055\068\109\121\117\101\068\106\112\049\114\053\113\079\121\102\069\088\105\061","\105\086\099\106\102\111\054\065";"\099\113\068\089\108\103\082\101\110\110\106\074\105\078\061\061","\048\078\061\061","\102\108\082\089\055\067\061\061";"\073\109\057\075\073\108\119\100\054\047\114\061";"\073\109\082\100\102\109\110\061";"\047\119\057\103\088\069\061\061"}local function y(y)return G[y-(-883059+940436)]end for y,t in ipairs({{1008041+-1008040;63839+-63792},{171327-171326;560283+-560260};{602491+-602467;-741864+741911}})do while t[-1030078-(-1030079)]<t[-590312-(-590314)]do G[t[872181+-872180]],G[t[-337174+337176]],t[162780-162779],t[-203687-(-203689)]=G[t[1036501-1036499]],G[t[117418+-117417]],t[839742-839741]+(24202-24201),t[-222953+222955]-(-669530-(-669531))end end do local y=math.floor local t=string.sub local X={m=-929995-(-930001);s=-170718-(-170725),K=-791657-(-791703);r=-595316+595324,["\050"]=-84586+84605,L=-375383+375401,["\048"]=652706-652692;R=-370923-(-370928),i=907324+-907296,Q=194430+-194367,F=-836825-(-836860);o=-785672+785727;["\043"]=783665-783664,["\049"]=984349-984298,j=639471-639426;B=384727-384717;d=-41077-(-41111);O=742600-742558;N=921709-921677;D=-687474-(-687510);V=-929804+929842;c=-282376+282397;x=-1078-(-1134);y=117993+-117990;J=622904+-622855;["\052"]=-770705-(-770714);f=328124-328097,H=173650+-173634;Z=-326217+326229,["\055"]=-463713+463739;["\051"]=65565-65508,E=796451-796403,M=91126-91111,a=208458-208404,["\054"]=-618882+618907,g=-179475+179514,t=-159520+159551,["\047"]=-218786-(-218809),l=-930681-(-930703),W=-969670-(-969732),A=250883-250846,["\053"]=789105+-789061,u=171669-171658,["\056"]=-583857-(-583904),U=-285067+285100;v=-875972-(-875985);h=-664952+664993,p=-929197-(-929214);z=-825090-(-825150);w=258972-258919,q=-803900-(-803904),P=109249-109199;k=1042641-1042583,G=-784943-(-785002);S=-200588-(-200618),n=1023454-1023434,Y=836255-836203;T=1045359-1045316,e=137678-137676;["\057"]=876955+-876894,X=99871+-99847,b=-507500-(-507540),C=916285+-916285,I=240086-240057}local s=string.len local f=table.concat local u=G local z=type local R=table.insert local g=string.char for G=-815006-(-815007),#u,-797440-(-797441)do local w=u[G]if z(w)=="\115\116\114\105\110\103"then local z=s(w)local h={}local m=-30317-(-30318)local r=-738573-(-738573)local C=-642605+642605 while m<=z do local G=t(w,m,m)local s=X[G]if s then r=r+s*(-366283+366347)^((759671-759668)-C)C=C+(448332-448331)if C==-316014+316018 then C=589207-589207 local G=y(r/(386403-320867))local t=y((r%(-761094+826630))/(846469-846213))local X=r%(-1007653+1007909)R(h,g(G,t,X))r=-830597+830597 end elseif G=="\061"then R(h,g(y(r/(-1034599+1100135))))if m>=z or t(w,m+(-778786+778787),m+(-852915+852916))~="\061"then R(h,g(y((r%(-38371-(-103907)))/(-791654-(-791910)))))end break end m=m+(-408077-(-408078))end u[G]=f(h)end end end return(function(G,X,s,f,u,z,R,t,h,C,D,a,b,m,w,K,x,r,g,M,I)M,h,C,x,r,g,w,b,t,m,D,I,K,a=function(G,y)local X=r(y)local s=function(s,f)return t(G,{s,f},y,X)end return s end,function()m=m+(417177-417176)w[m]=73152-73151 return m end,function(G)local y,t=5192-5191,G[-994025+994026]while t do w[t],y=w[t]-(-871256-(-871257)),(567228+-567227)+y if w[t]==430501+-430501 then w[t],g[t]=nil,nil end t=G[y]end end,function(G,y)local X=r(y)local s=function(s,f,u,z,R,g)return t(G,{s;f;u;z,R;g},y,X)end return s end,function(G)for y=845008-845007,#G,724041+-724040 do w[G[y]]=w[G[y]]+(-82530+82531)end if s then local t=s(true)local X=u(t)X[y(584996+-527613)],X[y(434112+-376712)],X[y(830513+-773134)]=G,C,function()return-3648821-(-474442)end return t else return f({},{[y(-778561-(-835961))]=C,[y(-470281-(-527664))]=G;[y(41262-(-16117))]=function()return 86316+-3260695 end})end end,{},{},function(G,y)local X=r(y)local s=function(s,f,u)return t(G,{s,f;u},y,X)end return s end,function(t,s,f,u)local F,A,E,L,T,W,N,J,H,w,B,m,V,n,k,o,p,e,P,S,Z,v,j,U,R,Q,C,K,d,Y,r,O,q,l while t do if t<8377767-(-325445)then if t<4596611-(-346725)then if t<-652410+2421242 then if t<-209426-(-887120)then if t<-947237+1507350 then if t<-324830+755479 then if t<-676314+1056591 then t=-543422+12194920 g[m]=R else w=nil g[f[139838-139833]]=R t=10323150-(-102624)end else t=g[Y]n=792341-792335 S=74621+-74620 e=t(S,n)t=y(427574+-370157)G[t]=e n=y(-993286+1050703)S=G[n]n=275460-275458 t=S>n t=t and-303512+14925991 or 200714-(-480867)end else if t<-602225+1216728 then r=g[f[-544489+544495]]m=r==w t=86895+327184 R=m else n=712120-712120 A=#q T=A==n t=13154567-(-941983)end end else if t<-180043+1475426 then if t<1497124-595502 then n=y(664044-606627)t=G[n]n=y(825794+-768378)G[n]=t t=-227778+2037229 else R=533854+11957480 r=-804559+8932451 m=y(39301-(-18109))w=m^r t=R-w w=t R=y(-88046-(-145441))t=R/w R={t}t=G[y(173638+-116256)]end else if t<1446488-(-42953)then t=true t=5425682-(-448317)else R=y(777749+-720360)t=G[R]w=y(-269715+327128)R=t(w)R={}t=G[y(-769856+827270)]end end end else if t<-101706+3829190 then if t<2861426-(-557100)then if t<3021298-147855 then if t<-895558+2936851 then t=2758182-(-786262)else w=y(932335-874946)t=G[w]m=g[f[601976-601968]]r=482247-482247 w=t(m,r)t=-621471+10423700 end else R=y(571671-514254)t=G[R]w=y(-613481+670897)R=G[w]w=y(347389-289973)G[w]=t w=y(-413370-(-470787))G[w]=R w=g[f[193887-193886]]m=w()t=177854+14012951 end else if t<4259080-689164 then t=true t=t and 327868-(-231269)or 9016824-461894 else t=G[y(-485219-(-542610))]R={m}end end else if t<-188657+4835094 then if t<3495766-(-757162)then R=y(1056445-999047)t=G[R]C=y(-621021-(-678402))j=M(651721+14279995,{})H=y(155938-98550)w=g[f[499346+-499342]]r=G[C]Y=G[H]H={Y(j)}o={X(H)}Y=-86277+86279 K=o[Y]C=r(K)r=y(644798+-587378)m=w(C,r)w={m()}R=t(X(w))w=R m=g[f[-111474+111479]]t=m and 918490-337172 or 255059-(-159020)R=m else t=l R=j t=j and-716204+6032028 or 14706252-378114 end else if t<4559357-(-251671)then w=g[f[-193642+193643]]R=#w w=472408-472408 t=R==w t=t and 178779+16028838 or 7718896-(-558796)else t=7749280-(-489447)o=g[K]R=o end end end end else if t<787786+5940874 then if t<-172867+6037433 then if t<5537059-227078 then if t<6031924-746833 then if t<-125291+5268923 then k=g[m]v=k t=k and 14085667-879570 or-1027302+15369733 else C=nil o=nil Y=nil t=4015+3622109 end else v=g[m]t=v and 473293+6578599 or 226024-(-116278)R=v end else if t<442115+5342695 then l=176242+-176239 j=h()U=-801337-(-801402)g[j]=R t=g[Y]T=I(340754+643222,{})R=t(l,U)l=h()g[l]=R t=837032+-837032 q=y(-42792+100180)R=G[q]U=t q={R(T)}t=-800106-(-800106)S=y(-920046+977427)W=t t={X(q)}R=-860680+860682 q=t t=q[R]T=t R=y(889672-832274)t=G[R]A=g[r]e=G[S]S=e(T)e=y(224427+-167007)F=A(S,e)A={F()}R=t(X(A))A=h()t=400993+10980303 g[A]=R R=-965860+965861 F=g[l]e=F F=456260-456259 S=F F=805514-805514 n=S<F F=R-S else t=G[y(-387580+444983)]R={}end end else if t<808713+5130252 then if t<6072825-187263 then t=D(-349204+15807278,{C})e={t()}t=G[y(-697073+754459)]R={X(e)}else t=R and-294523+4108168 or-534948+10960722 end else if t<-21038+6570305 then m=g[f[165368+-165366]]r=g[f[1017531+-1017528]]w=m==r t=-893582+6819454 R=w else t=true t=t and 16048829-531637 or-516146+6390145 end end end else if t<942804+6927817 then if t<6375429-(-771975)then if t<-849872+7953442 then if t<6385792-(-582836)then d=-42021+42023 L=O[d]d=g[Z]P=L==d t=14692222-(-251764)v=P else d=789941-789940 k=t L=O[d]d=false P=L==d v=P t=P and-842331+7712192 or 3424+14940562 end else K=169040+-169038 m=g[f[-1042461-(-1042462)]]C=-64672-(-64673)r=m(C,K)m=-740947+740948 w=r==m R=w t=w and 5417308-(-508564)or 5376676-(-622428)end else if t<6918367-(-730636)then U=nil o=nil Y=a(Y)A=a(A)A=196366+-196110 K=a(K)l=a(l)H=nil r=a(r)C=a(C)o=y(-230400+287797)j=a(j)r=nil l=h()n=A W=nil A=-249312+249313 q=nil m=a(m)H=y(-554069-(-611468))T=nil m=nil K=G[o]Y=y(-619493+676890)U={}J=A o=y(78937-21515)q={}C=K[o]K=h()j=y(-372336-(-429754))g[K]=C o=G[Y]Y=y(-284911-(-342318))C=o[Y]Y=G[H]A=-903547+903547 H=y(-7253-(-64647))o=Y[H]H=G[j]j=y(-820601+877991)Y=H[j]W=h()N=J<A j=h()H=-812615-(-812615)g[j]=H H=-368837+368839 g[l]=H t=12272415-(-248136)H={}g[W]=U U=613349-613349 T=761547+-761546 A=T-J else t=4468125-842001 end end else if t<-511495+8769281 then if t<7536127-(-670992)then r=-168984+168985 m=g[f[923848+-923845]]w=m~=r t=w and 8440246-(-396584)or 683619+10216569 else Y=y(-416576+473973)o=R R=G[Y]H=y(1025359-967960)Y=y(539785-482378)t=R[Y]Y=h()g[Y]=t R=G[H]H=y(165995+-108574)W=y(-696888+754287)t=R[H]l=t U=G[W]H=t t=U and-1036401+16524333 or 5357431-722073 j=U end else if t<481675+7963946 then r=y(-1034991+1092390)m=G[r]r=y(-698933-(-756327))w=m[r]r=g[f[-76543+76544]]t=G[y(403710-346323)]m={w(r)}R={X(m)}else t=G[y(-393588+451012)]R={}end end end end end else if t<20124+13679561 then if t<12436912-1026700 then if t<11823232-938630 then if t<10295926-14477 then if t<1036014+8821935 then if t<-203805+9484435 then j=-699040+699042 r=59034+-59002 m=g[f[-283394+283397]]U=217598+-217585 w=m%r C=g[f[-111860-(-111864)]]Y=g[f[-783118-(-783120)]]T=g[f[-227498+227501]]q=T-w T=-652652-(-652684)W=q/T l=U-W H=j^l o=Y/H H=-362382+362383 K=C(o)C=441789+4294525507 r=K%C K=751878-751876 C=K^w m=r/C C=g[f[-750739+750743]]Y=m%H H=-504556+4295471852 o=Y*H Y=-448082+513618 K=C(o)C=g[f[-62099-(-62103)]]j=223928+-223672 t=7457376-(-820316)o=C(m)r=K+o U=-497198-(-497454)K=-258794+324330 C=r%K o=r-C m=nil K=o/Y Y=13057+-12801 o=C%Y H=C-o Y=H/j j=21390+-21134 H=K%j r=nil l=K-H j=l/U l={o,Y,H;j}K=nil j=nil o=nil w=nil g[f[175443-175442]]=l Y=nil H=nil C=nil else m=786367-786366 r=g[f[3863-3854]]t={}w=t C=r t=15826392-(-733385)r=1039324-1039323 K=r r=641904+-641904 o=K<r r=m-K end else J=h()g[J]=F P=y(1065972-1008591)p=-865338+865593 B=-497772-(-497872)N=y(-896385+953782)R=G[N]Z=306649+-306648 N=y(-894747+952154)t=R[N]N=978057-978056 R=t(N,B)N=h()g[N]=R B=-631904-(-631904)O=628141-628139 t=g[Y]R=t(B,p)B=h()g[B]=R p=-966756-(-966757)t=g[Y]V=g[N]R=t(p,V)p=h()g[p]=R R=g[Y]V=R(Z,O)R=324353-324352 O=y(-358433+415829)t=V==R R=y(267897+-210477)V=h()g[V]=t k=G[P]L=g[Y]Q=286782-286782 E=-91544+101544 d={L(Q,E)}P=k(X(d))k=y(-831440-(-888836))v=P..k t=y(-453042-(-510426))t=T[t]Z=O..v O=y(-637049-(-694437))t=t(T,R,Z)Z=h()v=I(6475719-(-657188),{Y;J,l;r;m,A;V;Z;N;p;B;j})g[Z]=t R=G[O]O={R(v)}t={X(O)}O=t t=g[V]t=t and 4970927-(-334111)or 4868389-(-189055)end else if t<10989388-274236 then t=g[f[-641523-(-641530)]]t=t and 147312+2546591 or 8899292-(-902937)else t={}Y=546944+-546689 g[f[130227-130225]]=t K=35184372207203-118371 H=y(-275593-(-333011))R=g[f[1037176-1037173]]C=R R=m%K g[f[-676674-(-676678)]]=R o=m%Y Y=-825225-(-825227)K=o+Y l=-770520+770521 g[f[-433682+433687]]=K Y=G[H]H=y(-690479-(-747887))o=Y[H]Y=o(w)U=l o=y(66060+-8675)t=16756049-888801 r[m]=o H=-147225-(-147226)l=-165939+165939 j=Y o=-909496+909743 W=U<l l=H-U end end else if t<868153+10172999 then if t<-529325+11427749 then A=h()T={}P=nil N=y(-812669-(-870074))J=h()B={}n=b(3900868-(-868464),{A,j;l;K})V=y(-915870-(-973253))g[A]=T T=h()g[T]=n n={}R={}O=y(-250072-(-307464))g[J]=n C=nil n=G[N]o=nil H=nil Z=g[J]p={[V]=Z;[O]=P}U=nil N=n(B,p)m=N K=a(K)Y=nil n=x(487480+11637873,{J;A,W;j;l;T})U=-333403+8753406797383 A=a(A)K=y(580850-523435)Y=y(579091+-521711)W=a(W)C=G[K]J=a(J)o=G[Y]j=a(j)r=n t=G[y(-453729-(-511131))]T=a(T)l=a(l)l=y(405250+-347857)j=r(l,U)q=nil H=m[j]j=true r=nil l=y(934186-876774)l=o[l]m=nil Y={l(o,H,j)}K=C(X(Y))C=K()else t=8587540-602209 r=-705087-(-705242)m=g[f[-800668+800671]]w=m*r m=472584+-472327 R=w%m g[f[599910-599907]]=R end else if t<11571224-467611 then e=g[m]t=e and-639659+16164964 or-888950+14509127 F=e else J=not n F=F+S R=F<=e R=J and R J=F>=e J=n and J R=J or R J=176269+10048145 t=R and J R=10030455-(-1047063)t=t or R end end end else if t<-878429+13472176 then if t<986030+11245697 then if t<12291094-345572 then if t<-706154+12318404 then S=y(450625-393207)H=l e=G[S]S=y(-909707+967111)F=e[S]e=F(w,H)F=g[f[-773557+773563]]t=393660+15473588 S=F()A=e+S T=A+o A=-1046810-(-1047066)S=-619606+619607 q=T%A A=r[m]o=q e=o+S H=nil F=C[e]T=A..F r[m]=T else Z=a(Z)t=-47573+11428869 O=nil J=a(J)p=a(p)B=a(B)N=a(N)V=a(V)end else w=s[677927+-677926]m=s[380745-380743]t=g[f[141472+-141471]]r=t t=r[m]t=t and-917959+8786646 or 597769+10179289 end else if t<-761155+13092800 then T=A B=T t=-422288+12942839 q[T]=B T=nil else B=not N A=A+J T=A<=n T=B and T B=A>=n B=N and B T=B or T B=12784244-543120 t=T and B T=890277-214522 t=t or T end end else if t<-916384+14416421 then if t<-236909+13494270 then P=-838509+838510 t=14327784-(-14647)k=O[P]v=k else t=868112+6499331 end else if t<602247+12928089 then n=730198-730198 A=#q T=A==n t=T and 10746416-(-143005)or-831198+14927748 else g[m]=F t=g[m]t=t and-938125+14340863 or 1287973-(-154018)end end end end else if t<14822435-(-115836)then if t<218190+13989147 then if t<-330553+14447351 then if t<595879+13495485 then if t<15018345-946709 then R={}t=true g[f[-226603-(-226604)]]=t t=G[y(520831+-463422)]else t=g[f[435793-435783]]m=g[f[749566+-749555]]w[t]=m t=g[f[-771426+771438]]m={t(w)}t=G[y(-120288-(-177666))]R={X(m)}end else n=#q A=764838+-764837 t=13941087-427041 T=C(A,n)A=o(q,T)n=g[W]T=nil B=-699813-(-699814)N=A-B J=Y(N)n[A]=J A=nil end else if t<396251+13772860 then t=true r=y(559802-502384)w=s m=h()g[m]=t C=h()R=G[r]Y=y(23373+34015)r=y(-140788-(-198199))t=R[r]r=h()g[r]=t K=h()t=M(72732+1463668,{})g[C]=t t=false g[K]=t o=G[Y]H=b(13078161-(-673795),{K})Y=o(H)t=Y and 4883079-53812 or-963996+9202723 R=Y else t=true t=t and 2928415-(-242450)or 6475535-614176 end end else if t<15271206-699443 then if t<14792532-455434 then t=-742461+6058285 l=y(274718-217295)j=G[l]R=j else Q=-740516-(-740517)g[m]=v d=g[p]L=d+Q P=O[L]k=U+P P=956588-956332 t=k%P U=t t=1005762+10645736 L=g[B]P=W+L L=-567542+567798 k=P%L W=k end else if t<15152322-254184 then J=y(133125-75709)S=y(933239+-875858)t=G[S]n=G[J]S=t(n)t=y(83956-26539)G[t]=S t=265977+1543474 else r=8588170-295756 R=11573586-428270 m=y(-234185-(-291591))w=m^r t=R-w R=y(833145+-775726)w=t t=R/w R={t}t=G[y(72295+-14894)]end end end else if t<483912+15036368 then if t<-918340+16379877 then if t<1010382+14407024 then if t<484132+14795001 then t=k t=-1041789+1384091 R=v else m=r j=-1000888+1001143 t=g[f[-658528-(-658529)]]H=-326275-(-326275)Y=t(H,j)t=15637703-(-922074)w[m]=Y m=nil end else t=90661+14100144 end else if t<14666936-(-842043)then t=4814335-178977 q=y(-996904+1054303)W=G[q]q=y(475669-418246)U=W[q]j=U else t=3634545-90101 end end else if t<632595+15292855 then if t<-505593+16353506 then e=U==W F=e t=13457004-(-163173)else q=not W l=l+U H=l<=j H=q and H q=l>=j q=W and q H=q or H q=-285695+11738508 t=H and q H=-849011+6037031 t=t or H end else if t<-6575+16215088 then r=595079+-595018 m=g[f[-918068+918070]]w=m*r m=5516005274376-927999 R=w+m w=35184372125948-37116 t=R%w g[f[887558+-887556]]=t m=837934+-837933 t=-183436+11083624 w=g[f[580338+-580335]]R=w~=m else r=r+K m=r<=C Y=not o m=Y and m Y=r>=C Y=o and Y m=Y or m Y=14256551-(-1027222)t=m and Y m=-274466+14349666 t=t or m end end end end end end end t=#u return X(R)end,-967114+967114,function(G,y)local X=r(y)local s=function()return t(G,{},y,X)end return s end,function(G,y)local X=r(y)local s=function(s)return t(G,{s},y,X)end return s end,function(G,y)local X=r(y)local s=function(...)return t(G,{...},y,X)end return s end,function(G)w[G]=w[G]-(-762154+762155)if w[G]==-102048+102048 then w[G],g[G]=nil,nil end end return(K(13499534-(-657955),{}))(X(R))end)(getfenv and getfenv()or _ENV,unpack or table[y(28572+28851)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+-- Create GUI in CoreGui (persists after death)
+local player = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui")
+gui.Name = "MenuScript"
+gui.ResetOnSpawn = false
+gui.Parent = game:GetService("CoreGui")
+
+-- ===== PERSISTENT BLACKLIST SYSTEM =====
+local HttpService = game:GetService("HttpService")
+local dataFolder = "MenuScript_Data"
+local blacklistFile = "blacklist.json"
+
+-- Create folder to store data
+if not isfolder(dataFolder) then
+    makefolder(dataFolder)
+end
+
+-- Function to load blacklist
+local function loadBlacklist()
+    local path = dataFolder .. "/" .. blacklistFile
+    if isfile(path) then
+        local success, result = pcall(function()
+            return HttpService:JSONDecode(readfile(path))
+        end)
+        if success and type(result) == "table" then
+            return result
+        end
+    end
+    return {}
+end
+
+-- Function to save blacklist
+local function saveBlacklist(blacklistData)
+    local path = dataFolder .. "/" .. blacklistFile
+    local success, err = pcall(function()
+        writefile(path, HttpService:JSONEncode(blacklistData))
+    end)
+    if not success then
+        warn("Error saving blacklist: " .. tostring(err))
+    end
+end
+
+-- Function to validate nickname on Roblox (alternative method using Users API)
+local function validateNickRoblox(nick)
+    local success, result = pcall(function()
+        -- Using Roblox Users API
+        local url = "https://users.roblox.com/v1/usernames/users"
+        local data = HttpService:JSONEncode({
+            usernames = {nick},
+            excludeBannedUsers = false
+        })
+        
+        local response
+        -- Try using syn.request if available
+        if syn and syn.request then
+            response = syn.request({
+                Url = url,
+                Method = "POST",
+                Headers = {
+                    ["Content-Type"] = "application/json"
+                },
+                Body = data
+            })
+        -- Try using request if available
+        elseif request then
+            response = request({
+                Url = url,
+                Method = "POST",
+                Headers = {
+                    ["Content-Type"] = "application/json"
+                },
+                Body = data
+            })
+        -- Try using http_request if available
+        elseif http_request then
+            response = http_request({
+                Url = url,
+                Method = "POST",
+                Headers = {
+                    ["Content-Type"] = "application/json"
+                },
+                Body = data
+            })
+        else
+            return false, nil, nil, "No HTTP method available"
+        end
+        
+        if response and response.Body then
+            local decoded = HttpService:JSONDecode(response.Body)
+            if decoded and decoded.data and #decoded.data > 0 then
+                return true, decoded.data[1].id, decoded.data[1].name
+            end
+        end
+        return false, nil, nil, "Nickname not found"
+    end)
+    
+    if not success then
+        return false, nil, nil, tostring(result)
+    end
+    
+    return false, nil, nil, "Nickname not found"
+end
+
+-- Alternative function: validate using Get method
+local function validateNickRobloxGet(nick)
+    local success, result = pcall(function()
+        local url = "https://api.roblox.com/users/get-by-username?username=" .. HttpService:UrlEncode(nick)
+        
+        local response
+        if syn and syn.request then
+            response = syn.request({
+                Url = url,
+                Method = "GET"
+            })
+        elseif request then
+            response = request({
+                Url = url,
+                Method = "GET"
+            })
+        elseif http_request then
+            response = http_request({
+                Url = url,
+                Method = "GET"
+            })
+        else
+            return false, nil, nil, "No HTTP method available"
+        end
+        
+        if response and response.Body then
+            local decoded = HttpService:JSONDecode(response.Body)
+            if decoded and decoded.Id and decoded.Id > 0 then
+                return true, decoded.Id, decoded.Username
+            end
+        end
+        return false, nil, nil, "Nickname not found"
+    end)
+    
+    if not success then
+        return false, nil, nil, tostring(result)
+    end
+    
+    return false, nil, nil, "Nickname not found"
+end
+
+-- Function to validate nickname via Players (online player)
+local function validateNickOnline(nick)
+    -- Search for player ignoring case
+    for _, plr in pairs(Players:GetPlayers()) do
+        if plr.Name:lower() == nick:lower() then
+            return true, plr.UserId, plr.Name
+        end
+    end
+    return false, nil, nil
+end
+
+-- Load existing blacklist
+local globalBlacklist = loadBlacklist()
+
+-- Check if current player is on blacklist
+for nick, data in pairs(globalBlacklist) do
+    if nick:lower() == player.Name:lower() or (data.userId and data.userId == player.UserId) then
+        player:Kick("⛔ YOU ARE BLACKLISTED FROM THIS SCRIPT!\nReason: Unauthorized use detected.\nAccount permanently blocked.")
+        return
+    end
+end
+
+-- ===== FUNCTION TO CREATE ANIMATED BLUR (WHITE) =====
+local function createAnimatedBlur(parent, width, height, speed)
+    parent.ClipsDescendants = true
+    
+    local blur = Instance.new("Frame")
+    if height then
+        blur.Size = UDim2.new(0, width, 0, height)
+    else
+        blur.Size = UDim2.new(0, width, 1, 0)
+    end
+    blur.Position = UDim2.new(0, -width, 0, 0)
+    blur.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    blur.BackgroundTransparency = 0.5
+    blur.BorderSizePixel = 0
+    blur.Parent = parent
+    blur.ZIndex = 1000
+    
+    -- WHITE Gradient
+    local blurGradient = Instance.new("UIGradient")
+    blurGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(200, 200, 200)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+    })
+    blurGradient.Transparency = NumberSequence.new({
+        NumberSequenceKeypoint.new(0, 0.8),
+        NumberSequenceKeypoint.new(0.3, 0.3),
+        NumberSequenceKeypoint.new(0.5, 0),
+        NumberSequenceKeypoint.new(0.7, 0.3),
+        NumberSequenceKeypoint.new(1, 0.8)
+    })
+    blurGradient.Parent = blur
+    
+    -- Animation
+    local pos = -width
+    local direction = 1
+    
+    coroutine.wrap(function()
+        while blur.Parent do
+            task.wait()
+            pos = pos + (speed * direction)
+            local parentWidth = parent.AbsoluteSize.X
+            blur.Position = UDim2.new(0, pos, 0, 0)
+            
+            if pos >= parentWidth then
+                direction = -1
+            elseif pos <= -width then
+                direction = 1
+            end
+        end
+    end)()
+    
+    return blur
+end
+
+-- ===== FLOATING BUTTON =====
+local toggleButton = Instance.new("TextButton")
+toggleButton.Size = UDim2.new(0, 50, 0, 50)
+toggleButton.Position = UDim2.new(0, 20, 0, 100)
+toggleButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+toggleButton.BackgroundTransparency = 0
+toggleButton.BorderSizePixel = 2
+toggleButton.BorderColor3 = Color3.fromRGB(200, 0, 0)
+toggleButton.Text = "M"
+toggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+toggleButton.TextSize = 20
+toggleButton.Font = Enum.Font.GothamBold
+toggleButton.Parent = gui
+toggleButton.ZIndex = 999
+toggleButton.ClipsDescendants = true
+
+local toggleCorners = Instance.new("UICorner")
+toggleCorners.CornerRadius = UDim.new(0, 10)
+toggleCorners.Parent = toggleButton
+
+-- Blur on toggle button BORDER (frame over border)
+local toggleBorderBlur = Instance.new("Frame")
+toggleBorderBlur.Size = UDim2.new(1, 4, 1, 4)
+toggleBorderBlur.Position = UDim2.new(0, -2, 0, -2)
+toggleBorderBlur.BackgroundTransparency = 1
+toggleBorderBlur.BorderSizePixel = 0
+toggleBorderBlur.Parent = toggleButton
+toggleBorderBlur.ZIndex = 998
+toggleBorderBlur.ClipsDescendants = true
+
+createAnimatedBlur(toggleBorderBlur, 30, nil, 3)
+
+-- ===== MAIN MENU =====
+local menu = Instance.new("Frame")
+menu.Size = UDim2.new(0, 480, 0, 420)
+menu.Position = UDim2.new(0.5, -240, 0.5, -210)
+menu.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+menu.BackgroundTransparency = 0
+menu.BorderSizePixel = 0
+menu.Parent = gui
+menu.Visible = false
+menu.ClipsDescendants = true
+
+local corners = Instance.new("UICorner")
+corners.CornerRadius = UDim.new(0, 10)
+corners.Parent = menu
+
+local stroke = Instance.new("UIStroke")
+stroke.Color = Color3.fromRGB(200, 0, 0)
+stroke.Thickness = 2
+stroke.Parent = menu
+
+-- Title bar
+local titleBar = Instance.new("Frame")
+titleBar.Size = UDim2.new(1, 0, 0, 35)
+titleBar.Position = UDim2.new(0, 0, 0, 0)
+titleBar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+titleBar.BackgroundTransparency = 0
+titleBar.BorderSizePixel = 0
+titleBar.Parent = menu
+titleBar.ClipsDescendants = true
+
+local titleBarCorners = Instance.new("UICorner")
+titleBarCorners.CornerRadius = UDim.new(0, 10)
+titleBarCorners.Parent = titleBar
+
+-- Title
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1, -40, 0, 35)
+title.Position = UDim2.new(0, 10, 0, 0)
+title.BackgroundTransparency = 1
+title.Text = "MENU"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 20
+title.Font = Enum.Font.GothamBold
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.Parent = titleBar
+
+-- Close button (RED - has blur)
+local closeBtn = Instance.new("TextButton")
+closeBtn.Size = UDim2.new(0, 30, 0, 30)
+closeBtn.Position = UDim2.new(1, -35, 0, 2.5)
+closeBtn.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+closeBtn.BackgroundTransparency = 0
+closeBtn.BorderSizePixel = 0
+closeBtn.Text = "X"
+closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+closeBtn.TextSize = 18
+closeBtn.Font = Enum.Font.GothamBold
+closeBtn.Parent = titleBar
+closeBtn.ClipsDescendants = true
+
+local btnCorners = Instance.new("UICorner")
+btnCorners.CornerRadius = UDim.new(0, 6)
+btnCorners.Parent = closeBtn
+
+-- Blur on close button (it's red)
+createAnimatedBlur(closeBtn, 20, nil, 4)
+
+-- Content area
+local contentArea = Instance.new("Frame")
+contentArea.Size = UDim2.new(0, 300, 0, 340)
+contentArea.Position = UDim2.new(0, 170, 0, 40)
+contentArea.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+contentArea.BackgroundTransparency = 0
+contentArea.BorderSizePixel = 0
+contentArea.Parent = menu
+contentArea.ClipsDescendants = true
+
+local areaCorners = Instance.new("UICorner")
+areaCorners.CornerRadius = UDim.new(0, 6)
+areaCorners.Parent = contentArea
+
+-- Default text
+local defaultText = Instance.new("TextLabel")
+defaultText.Size = UDim2.new(1, -20, 1, -20)
+defaultText.Position = UDim2.new(0, 10, 0, 10)
+defaultText.BackgroundTransparency = 1
+defaultText.Text = "Select a tab"
+defaultText.TextColor3 = Color3.fromRGB(200, 200, 200)
+defaultText.TextSize = 16
+defaultText.Font = Enum.Font.Gotham
+defaultText.TextXAlignment = Enum.TextXAlignment.Center
+defaultText.TextYAlignment = Enum.TextYAlignment.Center
+defaultText.Parent = contentArea
+
+-- ===== NOTIFICATION =====
+local notification = Instance.new("TextLabel")
+notification.Size = UDim2.new(1, -20, 0, 30)
+notification.Position = UDim2.new(0, 10, 1, -40)
+notification.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+notification.BackgroundTransparency = 1
+notification.Text = ""
+notification.TextColor3 = Color3.fromRGB(255, 255, 255)
+notification.TextSize = 12
+notification.Font = Enum.Font.GothamBold
+notification.TextXAlignment = Enum.TextXAlignment.Center
+notification.TextYAlignment = Enum.TextYAlignment.Center
+notification.Parent = contentArea
+notification.Visible = false
+
+local notificationCorners = Instance.new("UICorner")
+notificationCorners.CornerRadius = UDim.new(0, 6)
+notificationCorners.Parent = notification
+
+-- Function to show notification
+local function showNotification(message, color)
+    notification.Text = message
+    notification.TextColor3 = color or Color3.fromRGB(255, 255, 255)
+    notification.BackgroundTransparency = 0.3
+    notification.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    notification.Visible = true
+    
+    -- Cancel previous notification if exists
+    if notification._timer then
+        task.cancel(notification._timer)
+    end
+    
+    notification._timer = task.delay(3, function()
+        notification.Visible = false
+    end)
+end
+
+-- ===== HOME TAB CONTENT =====
+-- LOCK-ON
+local lockOnText = Instance.new("TextButton")
+lockOnText.Size = UDim2.new(0, 130, 0, 35)
+lockOnText.Position = UDim2.new(0, 10, 0, 10)
+lockOnText.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+lockOnText.BackgroundTransparency = 0
+lockOnText.BorderSizePixel = 0
+lockOnText.Text = "LOCK-ON"
+lockOnText.TextColor3 = Color3.fromRGB(255, 255, 255)
+lockOnText.TextSize = 16
+lockOnText.Font = Enum.Font.GothamBold
+lockOnText.TextXAlignment = Enum.TextXAlignment.Center
+lockOnText.TextYAlignment = Enum.TextYAlignment.Center
+lockOnText.Parent = contentArea
+lockOnText.Visible = false
+
+local lockCorners = Instance.new("UICorner")
+lockCorners.CornerRadius = UDim.new(0, 6)
+lockCorners.Parent = lockOnText
+
+-- ESP
+local espText = Instance.new("TextButton")
+espText.Size = UDim2.new(0, 130, 0, 35)
+espText.Position = UDim2.new(0, 10, 0, 55)
+espText.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+espText.BackgroundTransparency = 0
+espText.BorderSizePixel = 0
+espText.Text = "ESP"
+espText.TextColor3 = Color3.fromRGB(255, 255, 255)
+espText.TextSize = 16
+espText.Font = Enum.Font.GothamBold
+espText.TextXAlignment = Enum.TextXAlignment.Center
+espText.TextYAlignment = Enum.TextYAlignment.Center
+espText.Parent = contentArea
+espText.Visible = false
+
+local espCorners = Instance.new("UICorner")
+espCorners.CornerRadius = UDim.new(0, 6)
+espCorners.Parent = espText
+
+-- ===== WHITELIST =====
+local whitelistButton = Instance.new("TextButton")
+whitelistButton.Size = UDim2.new(0, 130, 0, 35)
+whitelistButton.Position = UDim2.new(0, 10, 0, 100)
+whitelistButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+whitelistButton.BackgroundTransparency = 0
+whitelistButton.BorderSizePixel = 0
+whitelistButton.Text = "WHITELIST ▼"
+whitelistButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+whitelistButton.TextSize = 14
+whitelistButton.Font = Enum.Font.GothamBold
+whitelistButton.TextXAlignment = Enum.TextXAlignment.Center
+whitelistButton.TextYAlignment = Enum.TextYAlignment.Center
+whitelistButton.Parent = contentArea
+whitelistButton.Visible = false
+
+local whitelistCorners = Instance.new("UICorner")
+whitelistCorners.CornerRadius = UDim.new(0, 6)
+whitelistCorners.Parent = whitelistButton
+
+local playerListFrame = Instance.new("ScrollingFrame")
+playerListFrame.Size = UDim2.new(0, 130, 0, 0)
+playerListFrame.Position = UDim2.new(0, 10, 0, 140)
+playerListFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+playerListFrame.BackgroundTransparency = 0
+playerListFrame.BorderSizePixel = 0
+playerListFrame.ScrollBarThickness = 4
+playerListFrame.ScrollBarImageColor3 = Color3.fromRGB(200, 0, 0)
+playerListFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+playerListFrame.Parent = contentArea
+playerListFrame.Visible = false
+
+local playerListCorners = Instance.new("UICorner")
+playerListCorners.CornerRadius = UDim.new(0, 6)
+playerListCorners.Parent = playerListFrame
+
+local playerListLayout = Instance.new("UIListLayout")
+playerListLayout.Padding = UDim.new(0, 2)
+playerListLayout.Parent = playerListFrame
+
+-- ===== LOCK AIM CONFIG (DROPDOWN) =====
+local lockAimButton = Instance.new("TextButton")
+lockAimButton.Size = UDim2.new(0, 130, 0, 35)
+lockAimButton.Position = UDim2.new(0, 10, 0, 145)
+lockAimButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+lockAimButton.BackgroundTransparency = 0
+lockAimButton.BorderSizePixel = 0
+lockAimButton.Text = "LOCK AIM ▼"
+lockAimButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+lockAimButton.TextSize = 14
+lockAimButton.Font = Enum.Font.GothamBold
+lockAimButton.TextXAlignment = Enum.TextXAlignment.Center
+lockAimButton.TextYAlignment = Enum.TextYAlignment.Center
+lockAimButton.Parent = contentArea
+lockAimButton.Visible = false
+
+local lockAimCorners = Instance.new("UICorner")
+lockAimCorners.CornerRadius = UDim.new(0, 6)
+lockAimCorners.Parent = lockAimButton
+
+local lockAimFrame = Instance.new("Frame")
+lockAimFrame.Size = UDim2.new(0, 130, 0, 0)
+lockAimFrame.Position = UDim2.new(0, 10, 0, 185)
+lockAimFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+lockAimFrame.BackgroundTransparency = 0
+lockAimFrame.BorderSizePixel = 0
+lockAimFrame.ClipsDescendants = true
+lockAimFrame.Parent = contentArea
+lockAimFrame.Visible = false
+
+local lockAimFrameCorners = Instance.new("UICorner")
+lockAimFrameCorners.CornerRadius = UDim.new(0, 6)
+lockAimFrameCorners.Parent = lockAimFrame
+
+-- TORSO Option
+local torsoButton = Instance.new("TextButton")
+torsoButton.Size = UDim2.new(1, -8, 0, 25)
+torsoButton.Position = UDim2.new(0, 4, 0, 5)
+torsoButton.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+torsoButton.BackgroundTransparency = 0
+torsoButton.BorderSizePixel = 0
+torsoButton.Text = "TORSO"
+torsoButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+torsoButton.TextSize = 14
+torsoButton.Font = Enum.Font.GothamBold
+torsoButton.TextXAlignment = Enum.TextXAlignment.Center
+torsoButton.Parent = lockAimFrame
+
+local torsoCorner = Instance.new("UICorner")
+torsoCorner.CornerRadius = UDim.new(0, 4)
+torsoCorner.Parent = torsoButton
+
+-- HEAD Option
+local headButton = Instance.new("TextButton")
+headButton.Size = UDim2.new(1, -8, 0, 25)
+headButton.Position = UDim2.new(0, 4, 0, 35)
+headButton.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+headButton.BackgroundTransparency = 0
+headButton.BorderSizePixel = 0
+headButton.Text = "HEAD"
+headButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+headButton.TextSize = 14
+headButton.Font = Enum.Font.GothamBold
+headButton.TextXAlignment = Enum.TextXAlignment.Center
+headButton.Parent = lockAimFrame
+
+local headCorner = Instance.new("UICorner")
+headCorner.CornerRadius = UDim.new(0, 4)
+headCorner.Parent = headButton
+
+-- RANDOM Option
+local randomButton = Instance.new("TextButton")
+randomButton.Size = UDim2.new(1, -8, 0, 25)
+randomButton.Position = UDim2.new(0, 4, 0, 65)
+randomButton.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+randomButton.BackgroundTransparency = 0
+randomButton.BorderSizePixel = 0
+randomButton.Text = "RANDOM"
+randomButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+randomButton.TextSize = 14
+randomButton.Font = Enum.Font.GothamBold
+randomButton.TextXAlignment = Enum.TextXAlignment.Center
+randomButton.Parent = lockAimFrame
+
+local randomCorner = Instance.new("UICorner")
+randomCorner.CornerRadius = UDim.new(0, 4)
+randomCorner.Parent = randomButton
+
+-- ===== CONFIG TAB CONTENT =====
+local smoothLabel = Instance.new("TextLabel")
+smoothLabel.Size = UDim2.new(0, 130, 0, 25)
+smoothLabel.Position = UDim2.new(0, 10, 0, 10)
+smoothLabel.BackgroundTransparency = 1
+smoothLabel.Text = "SMOOTH:"
+smoothLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+smoothLabel.TextSize = 14
+smoothLabel.Font = Enum.Font.GothamBold
+smoothLabel.TextXAlignment = Enum.TextXAlignment.Left
+smoothLabel.Parent = contentArea
+smoothLabel.Visible = false
+
+local smoothBox = Instance.new("TextBox")
+smoothBox.Size = UDim2.new(0, 130, 0, 30)
+smoothBox.Position = UDim2.new(0, 10, 0, 35)
+smoothBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+smoothBox.BackgroundTransparency = 0
+smoothBox.BorderSizePixel = 0
+smoothBox.Text = "100"
+smoothBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+smoothBox.TextSize = 16
+smoothBox.Font = Enum.Font.Gotham
+smoothBox.TextXAlignment = Enum.TextXAlignment.Center
+smoothBox.TextYAlignment = Enum.TextYAlignment.Center
+smoothBox.Parent = contentArea
+smoothBox.Visible = false
+
+local smoothCorners = Instance.new("UICorner")
+smoothCorners.CornerRadius = UDim.new(0, 6)
+smoothCorners.Parent = smoothBox
+
+local fovSizeLabel = Instance.new("TextLabel")
+fovSizeLabel.Size = UDim2.new(0, 130, 0, 25)
+fovSizeLabel.Position = UDim2.new(0, 10, 0, 75)
+fovSizeLabel.BackgroundTransparency = 1
+fovSizeLabel.Text = "FOV SIZE:"
+fovSizeLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+fovSizeLabel.TextSize = 14
+fovSizeLabel.Font = Enum.Font.GothamBold
+fovSizeLabel.TextXAlignment = Enum.TextXAlignment.Left
+fovSizeLabel.Parent = contentArea
+fovSizeLabel.Visible = false
+
+local fovSizeBox = Instance.new("TextBox")
+fovSizeBox.Size = UDim2.new(0, 130, 0, 30)
+fovSizeBox.Position = UDim2.new(0, 10, 0, 100)
+fovSizeBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+fovSizeBox.BackgroundTransparency = 0
+fovSizeBox.BorderSizePixel = 0
+fovSizeBox.Text = "100"
+fovSizeBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+fovSizeBox.TextSize = 16
+fovSizeBox.Font = Enum.Font.Gotham
+fovSizeBox.TextXAlignment = Enum.TextXAlignment.Center
+fovSizeBox.TextYAlignment = Enum.TextYAlignment.Center
+fovSizeBox.Parent = contentArea
+fovSizeBox.Visible = false
+
+local fovSizeCorners = Instance.new("UICorner")
+fovSizeCorners.CornerRadius = UDim.new(0, 6)
+fovSizeCorners.Parent = fovSizeBox
+
+-- ===== FOV CONFIG (CAMERA FOV) =====
+local fovCameraLabel = Instance.new("TextLabel")
+fovCameraLabel.Size = UDim2.new(0, 130, 0, 25)
+fovCameraLabel.Position = UDim2.new(0, 10, 0, 140)
+fovCameraLabel.BackgroundTransparency = 1
+fovCameraLabel.Text = "FOV CONFIG:"
+fovCameraLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+fovCameraLabel.TextSize = 14
+fovCameraLabel.Font = Enum.Font.GothamBold
+fovCameraLabel.TextXAlignment = Enum.TextXAlignment.Left
+fovCameraLabel.Parent = contentArea
+fovCameraLabel.Visible = false
+
+local fovCameraBox = Instance.new("TextBox")
+fovCameraBox.Size = UDim2.new(0, 130, 0, 30)
+fovCameraBox.Position = UDim2.new(0, 10, 0, 165)
+fovCameraBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+fovCameraBox.BackgroundTransparency = 0
+fovCameraBox.BorderSizePixel = 0
+fovCameraBox.Text = "70"
+fovCameraBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+fovCameraBox.TextSize = 16
+fovCameraBox.Font = Enum.Font.Gotham
+fovCameraBox.TextXAlignment = Enum.TextXAlignment.Center
+fovCameraBox.TextYAlignment = Enum.TextYAlignment.Center
+fovCameraBox.Parent = contentArea
+fovCameraBox.Visible = false
+
+local fovCameraCorners = Instance.new("UICorner")
+fovCameraCorners.CornerRadius = UDim.new(0, 6)
+fovCameraCorners.Parent = fovCameraBox
+
+-- ===== DEVELOPER TAB CONTENT (ONLY misterio_390) =====
+-- Blacklist Section
+local blacklistNickLabel = Instance.new("TextLabel")
+blacklistNickLabel.Size = UDim2.new(0, 130, 0, 25)
+blacklistNickLabel.Position = UDim2.new(0, 10, 0, 10)
+blacklistNickLabel.BackgroundTransparency = 1
+blacklistNickLabel.Text = "BLACKLIST NICK:"
+blacklistNickLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+blacklistNickLabel.TextSize = 14
+blacklistNickLabel.Font = Enum.Font.GothamBold
+blacklistNickLabel.TextXAlignment = Enum.TextXAlignment.Left
+blacklistNickLabel.Parent = contentArea
+blacklistNickLabel.Visible = false
+
+local blacklistNickBox = Instance.new("TextBox")
+blacklistNickBox.Size = UDim2.new(0, 100, 0, 30)
+blacklistNickBox.Position = UDim2.new(0, 10, 0, 35)
+blacklistNickBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+blacklistNickBox.BackgroundTransparency = 0
+blacklistNickBox.BorderSizePixel = 0
+blacklistNickBox.PlaceholderText = "Player nickname..."
+blacklistNickBox.PlaceholderColor3 = Color3.fromRGB(150, 150, 150)
+blacklistNickBox.Text = ""
+blacklistNickBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+blacklistNickBox.TextSize = 14
+blacklistNickBox.Font = Enum.Font.Gotham
+blacklistNickBox.TextXAlignment = Enum.TextXAlignment.Left
+blacklistNickBox.Parent = contentArea
+blacklistNickBox.Visible = false
+
+local blacklistNickCorners = Instance.new("UICorner")
+blacklistNickCorners.CornerRadius = UDim.new(0, 6)
+blacklistNickCorners.Parent = blacklistNickBox
+
+local blacklistOkButton = Instance.new("TextButton")
+blacklistOkButton.Size = UDim2.new(0, 25, 0, 30)
+blacklistOkButton.Position = UDim2.new(0, 115, 0, 35)
+blacklistOkButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+blacklistOkButton.BackgroundTransparency = 0
+blacklistOkButton.BorderSizePixel = 0
+blacklistOkButton.Text = "OK"
+blacklistOkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+blacklistOkButton.TextSize = 14
+blacklistOkButton.Font = Enum.Font.GothamBold
+blacklistOkButton.Parent = contentArea
+blacklistOkButton.Visible = false
+
+local blacklistOkCorners = Instance.new("UICorner")
+blacklistOkCorners.CornerRadius = UDim.new(0, 6)
+blacklistOkCorners.Parent = blacklistOkButton
+
+-- Kick Section
+local kickNickLabel = Instance.new("TextLabel")
+kickNickLabel.Size = UDim2.new(0, 130, 0, 25)
+kickNickLabel.Position = UDim2.new(0, 10, 0, 80)
+kickNickLabel.BackgroundTransparency = 1
+kickNickLabel.Text = "KICK PLAYER:"
+kickNickLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+kickNickLabel.TextSize = 14
+kickNickLabel.Font = Enum.Font.GothamBold
+kickNickLabel.TextXAlignment = Enum.TextXAlignment.Left
+kickNickLabel.Parent = contentArea
+kickNickLabel.Visible = false
+
+local kickNickBox = Instance.new("TextBox")
+kickNickBox.Size = UDim2.new(0, 100, 0, 30)
+kickNickBox.Position = UDim2.new(0, 10, 0, 105)
+kickNickBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+kickNickBox.BackgroundTransparency = 0
+kickNickBox.BorderSizePixel = 0
+kickNickBox.PlaceholderText = "Player nickname..."
+kickNickBox.PlaceholderColor3 = Color3.fromRGB(150, 150, 150)
+kickNickBox.Text = ""
+kickNickBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+kickNickBox.TextSize = 14
+kickNickBox.Font = Enum.Font.Gotham
+kickNickBox.TextXAlignment = Enum.TextXAlignment.Left
+kickNickBox.Parent = contentArea
+kickNickBox.Visible = false
+
+local kickNickCorners = Instance.new("UICorner")
+kickNickCorners.CornerRadius = UDim.new(0, 6)
+kickNickCorners.Parent = kickNickBox
+
+local kickOkButton = Instance.new("TextButton")
+kickOkButton.Size = UDim2.new(0, 25, 0, 30)
+kickOkButton.Position = UDim2.new(0, 115, 0, 105)
+kickOkButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+kickOkButton.BackgroundTransparency = 0
+kickOkButton.BorderSizePixel = 0
+kickOkButton.Text = "OK"
+kickOkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+kickOkButton.TextSize = 14
+kickOkButton.Font = Enum.Font.GothamBold
+kickOkButton.Parent = contentArea
+kickOkButton.Visible = false
+
+local kickOkCorners = Instance.new("UICorner")
+kickOkCorners.CornerRadius = UDim.new(0, 6)
+kickOkCorners.Parent = kickOkButton
+
+-- Blacklist View Section (Tween Down)
+local blacklistViewButton = Instance.new("TextButton")
+blacklistViewButton.Size = UDim2.new(0, 130, 0, 35)
+blacklistViewButton.Position = UDim2.new(0, 10, 0, 150)
+blacklistViewButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+blacklistViewButton.BackgroundTransparency = 0
+blacklistViewButton.BorderSizePixel = 0
+blacklistViewButton.Text = "BLACKLIST ▼"
+blacklistViewButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+blacklistViewButton.TextSize = 14
+blacklistViewButton.Font = Enum.Font.GothamBold
+blacklistViewButton.TextXAlignment = Enum.TextXAlignment.Center
+blacklistViewButton.TextYAlignment = Enum.TextYAlignment.Center
+blacklistViewButton.Parent = contentArea
+blacklistViewButton.Visible = false
+
+local blacklistViewCorners = Instance.new("UICorner")
+blacklistViewCorners.CornerRadius = UDim.new(0, 6)
+blacklistViewCorners.Parent = blacklistViewButton
+
+local blacklistViewFrame = Instance.new("ScrollingFrame")
+blacklistViewFrame.Size = UDim2.new(0, 130, 0, 0)
+blacklistViewFrame.Position = UDim2.new(0, 10, 0, 190)
+blacklistViewFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+blacklistViewFrame.BackgroundTransparency = 0
+blacklistViewFrame.BorderSizePixel = 0
+blacklistViewFrame.ScrollBarThickness = 4
+blacklistViewFrame.ScrollBarImageColor3 = Color3.fromRGB(200, 0, 0)
+blacklistViewFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+blacklistViewFrame.Parent = contentArea
+blacklistViewFrame.Visible = false
+
+local blacklistViewFrameCorners = Instance.new("UICorner")
+blacklistViewFrameCorners.CornerRadius = UDim.new(0, 6)
+blacklistViewFrameCorners.Parent = blacklistViewFrame
+
+local blacklistViewLayout = Instance.new("UIListLayout")
+blacklistViewLayout.Padding = UDim.new(0, 2)
+blacklistViewLayout.Parent = blacklistViewFrame
+
+-- ===== VARIABLES =====
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local Camera = workspace.CurrentCamera
+local TweenService = game:GetService("TweenService")
+
+local lockOnSelected = false
+local aimbotActive = false
+local espActive = false
+local fovCircle = nil
+local FOV_RADIUS = 200
+local FOV_PERCENT = 100
+local smoothness = 0.5
+local ESPStorage = {}
+local whitelist = {}
+local whitelistOpen = false
+local whitelistTween = nil
+local lockAimOpen = false
+local lockAimTween = nil
+local aimPart = "Random"
+local blacklistViewOpen = false
+local blacklistViewTween = nil
+
+local COLOR_MID_RED = Color3.fromRGB(200, 0, 0)
+
+-- ===== FUNCTION TO CALCULATE SMOOTH =====
+local function calculateSmooth(percentage)
+    local value = math.max(1, math.min(144, percentage))
+    return value / 100
+end
+
+-- ===== FUNCTION TO CALCULATE FOV SIZE =====
+local function calculateFOVSize(percentage)
+    local value = math.max(0, math.min(200, percentage))
+    return (value / 100) * 200
+end
+
+-- ===== UPDATE SMOOTH =====
+smoothBox.FocusLost:Connect(function(enterPressed)
+    if enterPressed then
+        local value = tonumber(smoothBox.Text)
+        if value then
+            value = math.max(1, math.min(144, value))
+            smoothBox.Text = tostring(value)
+            smoothness = calculateSmooth(value)
+        else
+            smoothBox.Text = "100"
+            smoothness = calculateSmooth(100)
+        end
+    end
+end)
+
+-- ===== UPDATE FOV SIZE =====
+fovSizeBox.FocusLost:Connect(function(enterPressed)
+    if enterPressed then
+        local value = tonumber(fovSizeBox.Text)
+        if value then
+            value = math.max(0, math.min(200, value))
+            fovSizeBox.Text = tostring(value)
+            FOV_PERCENT = value
+            FOV_RADIUS = calculateFOVSize(value)
+            
+            if fovCircle then
+                if FOV_RADIUS > 0 then
+                    fovCircle.Radius = FOV_RADIUS
+                    fovCircle.Visible = true
+                else
+                    fovCircle.Visible = false
+                end
+            end
+        else
+            fovSizeBox.Text = "100"
+            FOV_PERCENT = 100
+            FOV_RADIUS = calculateFOVSize(100)
+        end
+    end
+end)
+
+-- ===== UPDATE CAMERA FOV =====
+fovCameraBox.FocusLost:Connect(function(enterPressed)
+    if enterPressed then
+        local value = tonumber(fovCameraBox.Text)
+        if value then
+            value = math.max(0, math.min(120, value))
+            fovCameraBox.Text = tostring(value)
+            Camera.FieldOfView = value
+        else
+            fovCameraBox.Text = "70"
+            Camera.FieldOfView = 70
+        end
+    end
+end)
+
+Camera.FieldOfView = 70
+
+-- ===== GLOBAL BLACKLIST FUNCTIONS =====
+local function updateBlacklistList()
+    -- Clear current list
+    for _, child in pairs(blacklistViewFrame:GetChildren()) do
+        if child:IsA("Frame") then
+            child:Destroy()
+        end
+    end
+    
+    local ySize = 0
+    for nick, data in pairs(globalBlacklist) do
+        local itemFrame = Instance.new("Frame")
+        itemFrame.Size = UDim2.new(1, -8, 0, 25)
+        itemFrame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+        itemFrame.BackgroundTransparency = 0
+        itemFrame.BorderSizePixel = 0
+        itemFrame.Parent = blacklistViewFrame
+        
+        local itemCorner = Instance.new("UICorner")
+        itemCorner.CornerRadius = UDim.new(0, 4)
+        itemCorner.Parent = itemFrame
+        
+        -- Player name
+        local nameLabel = Instance.new("TextLabel")
+        nameLabel.Size = UDim2.new(1, -30, 1, 0)
+        nameLabel.Position = UDim2.new(0, 5, 0, 0)
+        nameLabel.BackgroundTransparency = 1
+        nameLabel.Text = nick
+        nameLabel.TextColor3 = Color3.fromRGB(255, 100, 100)
+        nameLabel.TextSize = 12
+        nameLabel.Font = Enum.Font.Gotham
+        nameLabel.TextXAlignment = Enum.TextXAlignment.Left
+        nameLabel.Parent = itemFrame
+        
+        -- X button to remove
+        local removeButton = Instance.new("TextButton")
+        removeButton.Size = UDim2.new(0, 20, 0, 20)
+        removeButton.Position = UDim2.new(1, -25, 0, 2.5)
+        removeButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        removeButton.BackgroundTransparency = 0
+        removeButton.BorderSizePixel = 0
+        removeButton.Text = "×"
+        removeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+        removeButton.TextSize = 16
+        removeButton.Font = Enum.Font.GothamBold
+        removeButton.Parent = itemFrame
+        
+        local removeCorner = Instance.new("UICorner")
+        removeCorner.CornerRadius = UDim.new(0, 10)
+        removeCorner.Parent = removeButton
+        
+        removeButton.MouseButton1Click:Connect(function()
+            globalBlacklist[nick] = nil
+            saveBlacklist(globalBlacklist)
+            updateBlacklistList()
+            showNotification("✅ Removed: " .. nick, Color3.fromRGB(0, 255, 0))
+        end)
+        
+        ySize = ySize + 27
+    end
+    
+    blacklistViewFrame.CanvasSize = UDim2.new(0, 0, 0, ySize)
+end
+
+-- Function to add to blacklist (with validation)
+local function addToBlacklist(nick)
+    if not nick or nick == "" then
+        showNotification("❌ Enter a nickname!", Color3.fromRGB(255, 100, 100))
+        return
+    end
+    
+    -- Check if already on blacklist
+    for existingNick, _ in pairs(globalBlacklist) do
+        if existingNick:lower() == nick:lower() then
+            showNotification("⚠️ " .. existingNick .. " is already blacklisted!", Color3.fromRGB(255, 200, 0))
+            blacklistNickBox.Text = ""
+            return
+        end
+    end
+    
+    -- First check if online
+    local online, userId, correctNick = validateNickOnline(nick)
+    
+    if online then
+        -- Player is online, add directly
+        globalBlacklist[correctNick] = {
+            nick = correctNick,
+            userId = userId,
+            data = os.date("%Y-%m-%d %H:%M:%S")
+        }
+        saveBlacklist(globalBlacklist)
+        updateBlacklistList()
+        
+        -- Kick the player
+        local targetPlayer = Players:FindFirstChild(correctNick)
+        if targetPlayer then
+            targetPlayer:Kick("⛔ YOU HAVE BEEN BLACKLISTED!\nYou can no longer use this script.")
+        end
+        
+        showNotification("✅ Blacklisted: " .. correctNick, Color3.fromRGB(0, 255, 0))
+        blacklistNickBox.Text = ""
+        return
+    end
+    
+    -- If not online, try to validate on Roblox API
+    showNotification("🔍 Validating nickname on API...", Color3.fromRGB(255, 200, 0))
+    
+    coroutine.wrap(function()
+        -- Try POST method first
+        local valid, userId, correctNick, errorMsg = validateNickRoblox(nick)
+        
+        -- If it fails, try GET method
+        if not valid then
+            valid, userId, correctNick, errorMsg = validateNickRobloxGet(nick)
+        end
+        
+        if valid and correctNick then
+            -- Valid nickname on Roblox
+            -- Check again if already on blacklist (case insensitive)
+            for existingNick, _ in pairs(globalBlacklist) do
+                if existingNick:lower() == correctNick:lower() then
+                    showNotification("⚠️ " .. existingNick .. " is already blacklisted!", Color3.fromRGB(255, 200, 0))
+                    blacklistNickBox.Text = ""
+                    return
+                end
+            end
+            
+            globalBlacklist[correctNick] = {
+                nick = correctNick,
+                userId = userId,
+                data = os.date("%Y-%m-%d %H:%M:%S")
+            }
+            saveBlacklist(globalBlacklist)
+            updateBlacklistList()
+            
+            showNotification("✅ Blacklisted: " .. correctNick .. " (offline)", Color3.fromRGB(0, 255, 0))
+            blacklistNickBox.Text = ""
+        else
+            -- Invalid nickname
+            showNotification("❌ Invalid nickname: " .. nick, Color3.fromRGB(255, 100, 100))
+        end
+    end)()
+end
+
+-- Function to kick player
+local function kickPlayer(nick)
+    if not nick or nick == "" then
+        showNotification("❌ Enter a nickname!", Color3.fromRGB(255, 100, 100))
+        return
+    end
+    
+    -- Search for player ignoring case
+    local targetPlayer = nil
+    for _, plr in pairs(Players:GetPlayers()) do
+        if plr.Name:lower() == nick:lower() then
+            targetPlayer = plr
+            break
+        end
+    end
+    
+    if targetPlayer then
+        targetPlayer:Kick("⛔ You have been kicked by an administrator!")
+        showNotification("✅ Kicked: " .. targetPlayer.Name, Color3.fromRGB(0, 255, 0))
+        kickNickBox.Text = ""
+        return
+    end
+    
+    -- If not online, show message
+    showNotification("⚠️ Player not found online!", Color3.fromRGB(255, 200, 0))
+end
+
+-- Blacklist and kick button events
+blacklistOkButton.MouseButton1Click:Connect(function()
+    addToBlacklist(blacklistNickBox.Text)
+end)
+
+-- Also allow pressing Enter in text field
+blacklistNickBox.FocusLost:Connect(function(enterPressed)
+    if enterPressed then
+        addToBlacklist(blacklistNickBox.Text)
+    end
+end)
+
+kickOkButton.MouseButton1Click:Connect(function()
+    kickPlayer(kickNickBox.Text)
+end)
+
+kickNickBox.FocusLost:Connect(function(enterPressed)
+    if enterPressed then
+        kickPlayer(kickNickBox.Text)
+    end
+end)
+
+-- Blacklist view tween
+local function toggleBlacklistView()
+    blacklistViewOpen = not blacklistViewOpen
+    
+    if blacklistViewTween then
+        blacklistViewTween:Cancel()
+    end
+    
+    if blacklistViewOpen then
+        blacklistViewButton.Text = "BLACKLIST ▲"
+        blacklistViewFrame.Visible = true
+        
+        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+        blacklistViewTween = TweenService:Create(blacklistViewFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 140)})
+        blacklistViewTween:Play()
+        
+        updateBlacklistList()
+    else
+        blacklistViewButton.Text = "BLACKLIST ▼"
+        
+        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+        blacklistViewTween = TweenService:Create(blacklistViewFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 0)})
+        blacklistViewTween:Play()
+        
+        blacklistViewTween.Completed:Connect(function()
+            if not blacklistViewOpen then
+                blacklistViewFrame.Visible = false
+            end
+        end)
+    end
+end
+
+blacklistViewButton.MouseButton1Click:Connect(toggleBlacklistView)
+
+-- ===== WHITELIST FUNCTIONS =====
+local function updatePlayerList()
+    for _, child in pairs(playerListFrame:GetChildren()) do
+        if child:IsA("TextButton") then
+            child:Destroy()
+        end
+    end
+    
+    local ySize = 0
+    for _, plr in pairs(Players:GetPlayers()) do
+        if plr ~= player then
+            local playerButton = Instance.new("TextButton")
+            playerButton.Size = UDim2.new(1, -8, 0, 25)
+            playerButton.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+            playerButton.BackgroundTransparency = 0
+            playerButton.BorderSizePixel = 0
+            playerButton.Text = plr.Name
+            playerButton.TextColor3 = whitelist[plr.Name] and Color3.fromRGB(255, 0, 0) or Color3.fromRGB(255, 255, 255)
+            playerButton.TextSize = 12
+            playerButton.Font = Enum.Font.Gotham
+            playerButton.TextXAlignment = Enum.TextXAlignment.Left
+            playerButton.Parent = playerListFrame
+            
+            local btnCorner = Instance.new("UICorner")
+            btnCorner.CornerRadius = UDim.new(0, 4)
+            btnCorner.Parent = playerButton
+            
+            playerButton.MouseButton1Click:Connect(function()
+                if whitelist[plr.Name] then
+                    whitelist[plr.Name] = nil
+                    playerButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+                else
+                    whitelist[plr.Name] = true
+                    playerButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+                end
+            end)
+            
+            ySize = ySize + 27
+        end
+    end
+    
+    playerListFrame.CanvasSize = UDim2.new(0, 0, 0, ySize)
+end
+
+local function toggleWhitelist()
+    whitelistOpen = not whitelistOpen
+    
+    if whitelistTween then
+        whitelistTween:Cancel()
+    end
+    
+    if lockAimOpen then
+        lockAimOpen = false
+        lockAimButton.Text = "LOCK AIM ▼"
+        if lockAimTween then lockAimTween:Cancel() end
+        lockAimFrame.Visible = false
+        lockAimFrame.Size = UDim2.new(0, 130, 0, 0)
+    end
+    
+    if whitelistOpen then
+        whitelistButton.Text = "WHITELIST ▲"
+        playerListFrame.Visible = true
+        
+        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+        whitelistTween = TweenService:Create(playerListFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 180)})
+        whitelistTween:Play()
+        
+        local tweenLockAimButton = TweenService:Create(lockAimButton, tweenInfo, {Position = UDim2.new(0, 10, 0, 325)})
+        tweenLockAimButton:Play()
+        
+        local tweenLockAimFrame = TweenService:Create(lockAimFrame, tweenInfo, {Position = UDim2.new(0, 10, 0, 365)})
+        tweenLockAimFrame:Play()
+        
+        updatePlayerList()
+    else
+        whitelistButton.Text = "WHITELIST ▼"
+        
+        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+        whitelistTween = TweenService:Create(playerListFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 0)})
+        whitelistTween:Play()
+        
+        local tweenLockAimButton = TweenService:Create(lockAimButton, tweenInfo, {Position = UDim2.new(0, 10, 0, 145)})
+        tweenLockAimButton:Play()
+        
+        local tweenLockAimFrame = TweenService:Create(lockAimFrame, tweenInfo, {Position = UDim2.new(0, 10, 0, 185)})
+        tweenLockAimFrame:Play()
+        
+        whitelistTween.Completed:Connect(function()
+            if not whitelistOpen then
+                playerListFrame.Visible = false
+            end
+        end)
+    end
+end
+
+whitelistButton.MouseButton1Click:Connect(toggleWhitelist)
+
+-- ===== LOCK AIM CONFIG FUNCTIONS =====
+local function updateLockAimVisual()
+    torsoButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    headButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    randomButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    
+    if aimPart == "Torso" then
+        torsoButton.TextColor3 = COLOR_MID_RED
+    elseif aimPart == "Head" then
+        headButton.TextColor3 = COLOR_MID_RED
+    elseif aimPart == "Random" then
+        randomButton.TextColor3 = COLOR_MID_RED
+    end
+end
+
+local function toggleLockAim()
+    lockAimOpen = not lockAimOpen
+    
+    if lockAimTween then
+        lockAimTween:Cancel()
+    end
+    
+    if whitelistOpen then
+        whitelistOpen = false
+        whitelistButton.Text = "WHITELIST ▼"
+        if whitelistTween then whitelistTween:Cancel() end
+        playerListFrame.Visible = false
+        playerListFrame.Size = UDim2.new(0, 130, 0, 0)
+        
+        lockAimButton.Position = UDim2.new(0, 10, 0, 145)
+        lockAimFrame.Position = UDim2.new(0, 10, 0, 185)
+    end
+    
+    if lockAimOpen then
+        lockAimButton.Text = "LOCK AIM ▲"
+        lockAimFrame.Visible = true
+        
+        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+        lockAimTween = TweenService:Create(lockAimFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 95)})
+        lockAimTween:Play()
+        
+        updateLockAimVisual()
+    else
+        lockAimButton.Text = "LOCK AIM ▼"
+        
+        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+        lockAimTween = TweenService:Create(lockAimFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 0)})
+        lockAimTween:Play()
+        
+        lockAimTween.Completed:Connect(function()
+            if not lockAimOpen then
+                lockAimFrame.Visible = false
+            end
+        end)
+    end
+end
+
+lockAimButton.MouseButton1Click:Connect(toggleLockAim)
+
+torsoButton.MouseButton1Click:Connect(function()
+    aimPart = "Torso"
+    updateLockAimVisual()
+end)
+
+headButton.MouseButton1Click:Connect(function()
+    aimPart = "Head"
+    updateLockAimVisual()
+end)
+
+randomButton.MouseButton1Click:Connect(function()
+    aimPart = "Random"
+    updateLockAimVisual()
+end)
+
+-- ===== AIMBOT =====
+local function createFOV()
+    if fovCircle then
+        fovCircle:Remove()
+        fovCircle = nil
+    end
+
+    if FOV_RADIUS > 0 then
+        fovCircle = Drawing.new("Circle")
+        fovCircle.Visible = true
+        fovCircle.Thickness = 2
+        fovCircle.Color = COLOR_MID_RED
+        fovCircle.Filled = false
+        fovCircle.Radius = FOV_RADIUS
+        fovCircle.Position = Camera.ViewportSize / 2
+        fovCircle.Transparency = 1
+        fovCircle.NumSides = 100
+    end
+end
+
+local function removeFOV()
+    if fovCircle then
+        fovCircle:Remove()
+        fovCircle = nil
+    end
+end
+
+local function isVisible(targetPart)
+    local character = player.Character
+    if not character then return false end
+    local origin = character:FindFirstChild("Head")
+    if not origin then return false end
+    local raycastParams = RaycastParams.new()
+    raycastParams.FilterType = Enum.RaycastFilterType.Blacklist
+    raycastParams.FilterDescendantsInstances = {character}
+    raycastParams.IgnoreWater = true
+    local direction = (targetPart.Position - origin.Position)
+    local ray = workspace:Raycast(origin.Position, direction, raycastParams)
+    if ray then
+        local hit = ray.Instance
+        if hit and hit:IsDescendantOf(targetPart.Parent) then
+            return true
+        end
+        return false
+    end
+    return true
+end
+
+local function getTargetPart(character)
+    if not character then return nil end
+    
+    if aimPart == "Head" then
+        return character:FindFirstChild("Head")
+    elseif aimPart == "Torso" then
+        return character:FindFirstChild("UpperTorso") or character:FindFirstChild("Torso") or character:FindFirstChild("HumanoidRootPart")
+    elseif aimPart == "Random" then
+        local parts = {}
+        local head = character:FindFirstChild("Head")
+        local torso = character:FindFirstChild("UpperTorso") or character:FindFirstChild("Torso") or character:FindFirstChild("HumanoidRootPart")
+        if head then table.insert(parts, head) end
+        if torso then table.insert(parts, torso) end
+        if #parts > 0 then
+            return parts[math.random(1, #parts)]
+        end
+    end
+    
+    return character:FindFirstChild("HumanoidRootPart")
+end
+
+local function getClosestPlayerInFOV()
+    local nearest = nil
+    local lastDist = math.huge
+    local centerPos = Camera.ViewportSize / 2
+    for _, otherPlayer in ipairs(Players:GetPlayers()) do
+        if otherPlayer ~= player and not whitelist[otherPlayer.Name] then
+            local char = otherPlayer.Character
+            if char then
+                local humanoid = char:FindFirstChild("Humanoid")
+                if humanoid and humanoid.Health > 0 then
+                    local targetPart = getTargetPart(char)
+                    if targetPart then
+                        local screenPos, onScreen = Camera:WorldToViewportPoint(targetPart.Position)
+                        if onScreen then
+                            local dist = (Vector2.new(screenPos.X, screenPos.Y) - centerPos).Magnitude
+                            if FOV_RADIUS == 0 then return nil end
+                            if dist < lastDist and dist < FOV_RADIUS then
+                                if isVisible(targetPart) then
+                                    lastDist = dist
+                                    nearest = targetPart
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return nearest
+end
+
+local function aimAt(targetPos)
+    local character = player.Character
+    if not character then return end
+    local head = character:FindFirstChild("Head")
+    if not head then return end
+    local direction = (targetPos - head.Position).Unit
+    local lookAt = head.Position + direction * 100
+    local currentCFrame = Camera.CFrame
+    local targetCFrame = CFrame.new(Camera.CFrame.Position, lookAt)
+    Camera.CFrame = currentCFrame:Lerp(targetCFrame, smoothness)
+end
+
+local function aimbotLoop()
+    while aimbotActive and lockOnSelected do
+        RunService.RenderStepped:Wait()
+        local target = getClosestPlayerInFOV()
+        if target then
+            aimAt(target.Position)
+        end
+    end
+end
+
+-- ===== ESP =====
+local function applyESP(plr)
+    if ESPStorage[plr] then removeESP(plr) end
+    if not plr.Character then return end
+    if not plr.Character:FindFirstChild("HumanoidRootPart") then return end
+    if plr == player then return end
+    
+    local highlight = Instance.new("Highlight")
+    highlight.Name = "ESP_Highlight"
+    highlight.FillTransparency = 1
+    highlight.OutlineTransparency = 0
+    highlight.OutlineColor = COLOR_MID_RED
+    highlight.Parent = plr.Character
+    
+    local head = plr.Character:FindFirstChild("Head")
+    if head then
+        local billboard = Instance.new("BillboardGui")
+        billboard.Name = "ESP_Name"
+        billboard.Adornee = head
+        billboard.Size = UDim2.new(0, 100, 0, 30)
+        billboard.StudsOffset = Vector3.new(0, 2.5, 0)
+        billboard.AlwaysOnTop = true
+        local nameLabel = Instance.new("TextLabel")
+        nameLabel.Size = UDim2.new(1, 0, 1, 0)
+        nameLabel.BackgroundTransparency = 1
+        nameLabel.TextColor3 = COLOR_MID_RED
+        nameLabel.TextStrokeTransparency = 0
+        nameLabel.Font = Enum.Font.SourceSansBold
+        nameLabel.TextScaled = true
+        nameLabel.Text = plr.Name
+        nameLabel.Parent = billboard
+        billboard.Parent = head
+        ESPStorage[plr] = {highlight = highlight, nameGui = billboard}
+    else
+        ESPStorage[plr] = {highlight = highlight, nameGui = nil}
+    end
+end
+
+local function removeESP(plr)
+    if ESPStorage[plr] then
+        if ESPStorage[plr].highlight then ESPStorage[plr].highlight:Destroy() end
+        if ESPStorage[plr].nameGui then ESPStorage[plr].nameGui:Destroy() end
+        ESPStorage[plr] = nil
+    end
+end
+
+local function updateESP()
+    for _, plr in pairs(Players:GetPlayers()) do
+        if plr ~= player then
+            if espActive then
+                if plr.Character and plr.Character:FindFirstChild("Humanoid") then
+                    local humanoid = plr.Character.Humanoid
+                    if humanoid.Health > 0 then
+                        if not ESPStorage[plr] then applyESP(plr) end
+                    else
+                        removeESP(plr)
+                    end
+                else
+                    removeESP(plr)
+                end
+            else
+                removeESP(plr)
+            end
+        end
+    end
+end
+
+-- ===== BUTTON EVENTS =====
+lockOnText.MouseButton1Click:Connect(function()
+    if lockOnSelected then
+        lockOnText.TextColor3 = Color3.fromRGB(255, 255, 255)
+        lockOnSelected = false
+        aimbotActive = false
+        removeFOV()
+    else
+        lockOnText.TextColor3 = COLOR_MID_RED
+        lockOnSelected = true
+        aimbotActive = true
+        createFOV()
+        coroutine.wrap(aimbotLoop)()
+    end
+end)
+
+espText.MouseButton1Click:Connect(function()
+    if espActive then
+        espText.TextColor3 = Color3.fromRGB(255, 255, 255)
+        espActive = false
+        updateESP()
+    else
+        espText.TextColor3 = COLOR_MID_RED
+        espActive = true
+        updateESP()
+    end
+end)
+
+-- ===== TABS =====
+local buttons = {}
+local selectedButton = nil
+local normalColor = Color3.fromRGB(45, 45, 45)
+local selectedColor = COLOR_MID_RED
+local hoverColor = Color3.fromRGB(60, 60, 60)
+local tabNames = {"HOME", "CONFIG", "HELP", "ABOUT"}
+
+-- Add DEVELOPER tab only for misterio_390
+if player.Name == "misterio_390" then
+    tabNames = {"HOME", "CONFIG", "DEVELOPER", "HELP", "ABOUT"}
+end
+
+for i = 1, #tabNames do
+    local btn = Instance.new("TextButton")
+    btn.Size = UDim2.new(0, 140, 0, 40)
+    btn.Position = UDim2.new(0, 15, 0, 45 + (i-1) * 50)
+    btn.BackgroundColor3 = normalColor
+    btn.BackgroundTransparency = 0
+    btn.BorderSizePixel = 0
+    btn.Text = tabNames[i]
+    btn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    btn.TextSize = 14
+    btn.Font = Enum.Font.GothamBold
+    btn.TextXAlignment = Enum.TextXAlignment.Center
+    btn.Parent = menu
+
+    local btnCorner = Instance.new("UICorner")
+    btnCorner.CornerRadius = UDim.new(0, 6)
+    btnCorner.Parent = btn
+
+    btn.MouseEnter:Connect(function()
+        if btn ~= selectedButton then btn.BackgroundColor3 = hoverColor end
+    end)
+    btn.MouseLeave:Connect(function()
+        if btn ~= selectedButton then btn.BackgroundColor3 = normalColor end
+    end)
+    btn.MouseButton1Click:Connect(function()
+        if selectedButton then selectedButton.BackgroundColor3 = normalColor end
+        btn.BackgroundColor3 = selectedColor
+        selectedButton = btn
+        
+        -- Hide all elements first
+        defaultText.Visible = false
+        lockOnText.Visible = false
+        espText.Visible = false
+        whitelistButton.Visible = false
+        playerListFrame.Visible = false
+        lockAimButton.Visible = false
+        lockAimFrame.Visible = false
+        smoothLabel.Visible = false
+        smoothBox.Visible = false
+        fovSizeLabel.Visible = false
+        fovSizeBox.Visible = false
+        fovCameraLabel.Visible = false
+        fovCameraBox.Visible = false
+        blacklistNickLabel.Visible = false
+        blacklistNickBox.Visible = false
+        blacklistOkButton.Visible = false
+        kickNickLabel.Visible = false
+        kickNickBox.Visible = false
+        kickOkButton.Visible = false
+        blacklistViewButton.Visible = false
+        blacklistViewFrame.Visible = false
+        notification.Visible = false
+        
+        -- Reset states
+        if whitelistOpen then
+            whitelistOpen = false
+            whitelistButton.Text = "WHITELIST ▼"
+            if whitelistTween then whitelistTween:Cancel() end
+            playerListFrame.Size = UDim2.new(0, 130, 0, 0)
+            playerListFrame.Visible = false
+        end
+        
+        if lockAimOpen then
+            lockAimOpen = false
+            lockAimButton.Text = "LOCK AIM ▼"
+            if lockAimTween then lockAimTween:Cancel() end
+            lockAimFrame.Size = UDim2.new(0, 130, 0, 0)
+            lockAimFrame.Visible = false
+        end
+        
+        if blacklistViewOpen then
+            blacklistViewOpen = false
+            blacklistViewButton.Text = "BLACKLIST ▼"
+            if blacklistViewTween then blacklistViewTween:Cancel() end
+            blacklistViewFrame.Size = UDim2.new(0, 130, 0, 0)
+            blacklistViewFrame.Visible = false
+        end
+        
+        -- Reset positions
+        lockAimButton.Position = UDim2.new(0, 10, 0, 145)
+        lockAimFrame.Position = UDim2.new(0, 10, 0, 185)
+        
+        if btn.Text == "HOME" then
+            lockOnText.Visible = true
+            espText.Visible = true
+            whitelistButton.Visible = true
+            lockAimButton.Visible = true
+            updatePlayerList()
+        elseif btn.Text == "CONFIG" then
+            smoothLabel.Visible = true
+            smoothBox.Visible = true
+            fovSizeLabel.Visible = true
+            fovSizeBox.Visible = true
+            fovCameraLabel.Visible = true
+            fovCameraBox.Visible = true
+        elseif btn.Text == "DEVELOPER" then
+            blacklistNickLabel.Visible = true
+            blacklistNickBox.Visible = true
+            blacklistOkButton.Visible = true
+            kickNickLabel.Visible = true
+            kickNickBox.Visible = true
+            kickOkButton.Visible = true
+            blacklistViewButton.Visible = true
+            updateBlacklistList()
+        else
+            defaultText.Visible = true
+        end
+    end)
+    buttons[i] = btn
+end
+
+-- ===== TOGGLE BUTTON =====
+local menuOpen = false
+toggleButton.MouseButton1Click:Connect(function()
+    menuOpen = not menuOpen
+    menu.Visible = menuOpen
+    if menuOpen then
+        toggleButton.BackgroundColor3 = COLOR_MID_RED
+        toggleButton.Text = "X"
+    else
+        toggleButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+        toggleButton.Text = "M"
+    end
+end)
+
+closeBtn.MouseButton1Click:Connect(function()
+    menu.Visible = false
+    menuOpen = false
+    toggleButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+    toggleButton.Text = "M"
+end)
+
+-- ===== PLAYER EVENTS =====
+Players.PlayerAdded:Connect(function(plr)
+    -- Check blacklist
+    for nick, data in pairs(globalBlacklist) do
+        if nick:lower() == plr.Name:lower() or (data.userId and data.userId == plr.UserId) then
+            plr:Kick("⛔ YOU ARE BLACKLISTED FROM THIS SCRIPT!\nReason: Unauthorized use detected.\nAccount permanently blocked.")
+            return
+        end
+    end
+    
+    plr.CharacterAdded:Connect(function(character)
+        task.wait(0.5)
+        if espActive then applyESP(plr) end
+        if whitelistOpen then updatePlayerList() end
+    end)
+end)
+
+Players.PlayerRemoving:Connect(function(plr)
+    if ESPStorage[plr] then removeESP(plr) end
+    if whitelist[plr.Name] then whitelist[plr.Name] = nil end
+    if whitelistOpen then updatePlayerList() end
+end)
+
+player.CharacterAdded:Connect(function(character)
+    if espActive then task.wait(0.5); updateESP() end
+end)
+
+RunService.RenderStepped:Connect(function()
+    if espActive then updateESP() end
+end)
+
+print("========================================")
+print("MENU FULLY LOADED!")
+print("- LOCK-ON: Aimbot with FOV and Smooth")
+print("- ESP: Highlight + Player Name")
+print("- WHITELIST: Ignored players")
+print("- LOCK AIM CONFIG: Torso/Head/Random")
+print("- SMOOTH: 1-144%")
+print("- FOV SIZE: 0-200%")
+print("- FOV CONFIG: 0-120 (Camera FOV)")
+if player.Name == "misterio_390" then
+    print("- DEVELOPER: Blacklist/Kick (Admin)")
+    print("- VALIDATION: Nicknames verified on Roblox API")
+end
+print("- ANIMATION: White lines ONLY on red elements")
+print("========================================")
