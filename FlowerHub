@@ -5,165 +5,6 @@ gui.Name = "MenuScript"
 gui.ResetOnSpawn = false
 gui.Parent = game:GetService("CoreGui")
 
--- ===== PERSISTENT BLACKLIST SYSTEM =====
-local HttpService = game:GetService("HttpService")
-local dataFolder = "MenuScript_Data"
-local blacklistFile = "blacklist.json"
-
--- Create folder to store data
-if not isfolder(dataFolder) then
-    makefolder(dataFolder)
-end
-
--- Function to load blacklist
-local function loadBlacklist()
-    local path = dataFolder .. "/" .. blacklistFile
-    if isfile(path) then
-        local success, result = pcall(function()
-            return HttpService:JSONDecode(readfile(path))
-        end)
-        if success and type(result) == "table" then
-            return result
-        end
-    end
-    return {}
-end
-
--- Function to save blacklist
-local function saveBlacklist(blacklistData)
-    local path = dataFolder .. "/" .. blacklistFile
-    local success, err = pcall(function()
-        writefile(path, HttpService:JSONEncode(blacklistData))
-    end)
-    if not success then
-        warn("Error saving blacklist: " .. tostring(err))
-    end
-end
-
--- Function to validate nickname on Roblox (alternative method using Users API)
-local function validateNickRoblox(nick)
-    local success, result = pcall(function()
-        -- Using Roblox Users API
-        local url = "https://users.roblox.com/v1/usernames/users"
-        local data = HttpService:JSONEncode({
-            usernames = {nick},
-            excludeBannedUsers = false
-        })
-        
-        local response
-        -- Try using syn.request if available
-        if syn and syn.request then
-            response = syn.request({
-                Url = url,
-                Method = "POST",
-                Headers = {
-                    ["Content-Type"] = "application/json"
-                },
-                Body = data
-            })
-        -- Try using request if available
-        elseif request then
-            response = request({
-                Url = url,
-                Method = "POST",
-                Headers = {
-                    ["Content-Type"] = "application/json"
-                },
-                Body = data
-            })
-        -- Try using http_request if available
-        elseif http_request then
-            response = http_request({
-                Url = url,
-                Method = "POST",
-                Headers = {
-                    ["Content-Type"] = "application/json"
-                },
-                Body = data
-            })
-        else
-            return false, nil, nil, "No HTTP method available"
-        end
-        
-        if response and response.Body then
-            local decoded = HttpService:JSONDecode(response.Body)
-            if decoded and decoded.data and #decoded.data > 0 then
-                return true, decoded.data[1].id, decoded.data[1].name
-            end
-        end
-        return false, nil, nil, "Nickname not found"
-    end)
-    
-    if not success then
-        return false, nil, nil, tostring(result)
-    end
-    
-    return false, nil, nil, "Nickname not found"
-end
-
--- Alternative function: validate using Get method
-local function validateNickRobloxGet(nick)
-    local success, result = pcall(function()
-        local url = "https://api.roblox.com/users/get-by-username?username=" .. HttpService:UrlEncode(nick)
-        
-        local response
-        if syn and syn.request then
-            response = syn.request({
-                Url = url,
-                Method = "GET"
-            })
-        elseif request then
-            response = request({
-                Url = url,
-                Method = "GET"
-            })
-        elseif http_request then
-            response = http_request({
-                Url = url,
-                Method = "GET"
-            })
-        else
-            return false, nil, nil, "No HTTP method available"
-        end
-        
-        if response and response.Body then
-            local decoded = HttpService:JSONDecode(response.Body)
-            if decoded and decoded.Id and decoded.Id > 0 then
-                return true, decoded.Id, decoded.Username
-            end
-        end
-        return false, nil, nil, "Nickname not found"
-    end)
-    
-    if not success then
-        return false, nil, nil, tostring(result)
-    end
-    
-    return false, nil, nil, "Nickname not found"
-end
-
--- Function to validate nickname via Players (online player)
-local function validateNickOnline(nick)
-    -- Search for player ignoring case
-    for _, plr in pairs(Players:GetPlayers()) do
-        if plr.Name:lower() == nick:lower() then
-            return true, plr.UserId, plr.Name
-        end
-    end
-    return false, nil, nil
-end
-
--- Load existing blacklist
-local globalBlacklist = loadBlacklist()
-
--- Check if current player is on blacklist
-for nick, data in pairs(globalBlacklist) do
-    if nick:lower() == player.Name:lower() or (data.userId and data.userId == player.UserId) then
-        player:Kick("⛔ YOU ARE BLACKLISTED FROM THIS SCRIPT!\nReason: Unauthorized use detected.\nAccount permanently blocked.")
-        return
-    end
-end
-
 -- ===== FUNCTION TO CREATE ANIMATED BLUR (WHITE) =====
 local function createAnimatedBlur(parent, width, height, speed)
     parent.ClipsDescendants = true
@@ -344,43 +185,6 @@ defaultText.Font = Enum.Font.Gotham
 defaultText.TextXAlignment = Enum.TextXAlignment.Center
 defaultText.TextYAlignment = Enum.TextYAlignment.Center
 defaultText.Parent = contentArea
-
--- ===== NOTIFICATION =====
-local notification = Instance.new("TextLabel")
-notification.Size = UDim2.new(1, -20, 0, 30)
-notification.Position = UDim2.new(0, 10, 1, -40)
-notification.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-notification.BackgroundTransparency = 1
-notification.Text = ""
-notification.TextColor3 = Color3.fromRGB(255, 255, 255)
-notification.TextSize = 12
-notification.Font = Enum.Font.GothamBold
-notification.TextXAlignment = Enum.TextXAlignment.Center
-notification.TextYAlignment = Enum.TextYAlignment.Center
-notification.Parent = contentArea
-notification.Visible = false
-
-local notificationCorners = Instance.new("UICorner")
-notificationCorners.CornerRadius = UDim.new(0, 6)
-notificationCorners.Parent = notification
-
--- Function to show notification
-local function showNotification(message, color)
-    notification.Text = message
-    notification.TextColor3 = color or Color3.fromRGB(255, 255, 255)
-    notification.BackgroundTransparency = 0.3
-    notification.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    notification.Visible = true
-    
-    -- Cancel previous notification if exists
-    if notification._timer then
-        task.cancel(notification._timer)
-    end
-    
-    notification._timer = task.delay(3, function()
-        notification.Visible = false
-    end)
-end
 
 -- ===== HOME TAB CONTENT =====
 -- LOCK-ON
@@ -646,147 +450,6 @@ local fovCameraCorners = Instance.new("UICorner")
 fovCameraCorners.CornerRadius = UDim.new(0, 6)
 fovCameraCorners.Parent = fovCameraBox
 
--- ===== DEVELOPER TAB CONTENT (ONLY misterio_390) =====
--- Blacklist Section
-local blacklistNickLabel = Instance.new("TextLabel")
-blacklistNickLabel.Size = UDim2.new(0, 130, 0, 25)
-blacklistNickLabel.Position = UDim2.new(0, 10, 0, 10)
-blacklistNickLabel.BackgroundTransparency = 1
-blacklistNickLabel.Text = "BLACKLIST NICK:"
-blacklistNickLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
-blacklistNickLabel.TextSize = 14
-blacklistNickLabel.Font = Enum.Font.GothamBold
-blacklistNickLabel.TextXAlignment = Enum.TextXAlignment.Left
-blacklistNickLabel.Parent = contentArea
-blacklistNickLabel.Visible = false
-
-local blacklistNickBox = Instance.new("TextBox")
-blacklistNickBox.Size = UDim2.new(0, 100, 0, 30)
-blacklistNickBox.Position = UDim2.new(0, 10, 0, 35)
-blacklistNickBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-blacklistNickBox.BackgroundTransparency = 0
-blacklistNickBox.BorderSizePixel = 0
-blacklistNickBox.PlaceholderText = "Player nickname..."
-blacklistNickBox.PlaceholderColor3 = Color3.fromRGB(150, 150, 150)
-blacklistNickBox.Text = ""
-blacklistNickBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-blacklistNickBox.TextSize = 14
-blacklistNickBox.Font = Enum.Font.Gotham
-blacklistNickBox.TextXAlignment = Enum.TextXAlignment.Left
-blacklistNickBox.Parent = contentArea
-blacklistNickBox.Visible = false
-
-local blacklistNickCorners = Instance.new("UICorner")
-blacklistNickCorners.CornerRadius = UDim.new(0, 6)
-blacklistNickCorners.Parent = blacklistNickBox
-
-local blacklistOkButton = Instance.new("TextButton")
-blacklistOkButton.Size = UDim2.new(0, 25, 0, 30)
-blacklistOkButton.Position = UDim2.new(0, 115, 0, 35)
-blacklistOkButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-blacklistOkButton.BackgroundTransparency = 0
-blacklistOkButton.BorderSizePixel = 0
-blacklistOkButton.Text = "OK"
-blacklistOkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-blacklistOkButton.TextSize = 14
-blacklistOkButton.Font = Enum.Font.GothamBold
-blacklistOkButton.Parent = contentArea
-blacklistOkButton.Visible = false
-
-local blacklistOkCorners = Instance.new("UICorner")
-blacklistOkCorners.CornerRadius = UDim.new(0, 6)
-blacklistOkCorners.Parent = blacklistOkButton
-
--- Kick Section
-local kickNickLabel = Instance.new("TextLabel")
-kickNickLabel.Size = UDim2.new(0, 130, 0, 25)
-kickNickLabel.Position = UDim2.new(0, 10, 0, 80)
-kickNickLabel.BackgroundTransparency = 1
-kickNickLabel.Text = "KICK PLAYER:"
-kickNickLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
-kickNickLabel.TextSize = 14
-kickNickLabel.Font = Enum.Font.GothamBold
-kickNickLabel.TextXAlignment = Enum.TextXAlignment.Left
-kickNickLabel.Parent = contentArea
-kickNickLabel.Visible = false
-
-local kickNickBox = Instance.new("TextBox")
-kickNickBox.Size = UDim2.new(0, 100, 0, 30)
-kickNickBox.Position = UDim2.new(0, 10, 0, 105)
-kickNickBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-kickNickBox.BackgroundTransparency = 0
-kickNickBox.BorderSizePixel = 0
-kickNickBox.PlaceholderText = "Player nickname..."
-kickNickBox.PlaceholderColor3 = Color3.fromRGB(150, 150, 150)
-kickNickBox.Text = ""
-kickNickBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-kickNickBox.TextSize = 14
-kickNickBox.Font = Enum.Font.Gotham
-kickNickBox.TextXAlignment = Enum.TextXAlignment.Left
-kickNickBox.Parent = contentArea
-kickNickBox.Visible = false
-
-local kickNickCorners = Instance.new("UICorner")
-kickNickCorners.CornerRadius = UDim.new(0, 6)
-kickNickCorners.Parent = kickNickBox
-
-local kickOkButton = Instance.new("TextButton")
-kickOkButton.Size = UDim2.new(0, 25, 0, 30)
-kickOkButton.Position = UDim2.new(0, 115, 0, 105)
-kickOkButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-kickOkButton.BackgroundTransparency = 0
-kickOkButton.BorderSizePixel = 0
-kickOkButton.Text = "OK"
-kickOkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-kickOkButton.TextSize = 14
-kickOkButton.Font = Enum.Font.GothamBold
-kickOkButton.Parent = contentArea
-kickOkButton.Visible = false
-
-local kickOkCorners = Instance.new("UICorner")
-kickOkCorners.CornerRadius = UDim.new(0, 6)
-kickOkCorners.Parent = kickOkButton
-
--- Blacklist View Section (Tween Down)
-local blacklistViewButton = Instance.new("TextButton")
-blacklistViewButton.Size = UDim2.new(0, 130, 0, 35)
-blacklistViewButton.Position = UDim2.new(0, 10, 0, 150)
-blacklistViewButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-blacklistViewButton.BackgroundTransparency = 0
-blacklistViewButton.BorderSizePixel = 0
-blacklistViewButton.Text = "BLACKLIST ▼"
-blacklistViewButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-blacklistViewButton.TextSize = 14
-blacklistViewButton.Font = Enum.Font.GothamBold
-blacklistViewButton.TextXAlignment = Enum.TextXAlignment.Center
-blacklistViewButton.TextYAlignment = Enum.TextYAlignment.Center
-blacklistViewButton.Parent = contentArea
-blacklistViewButton.Visible = false
-
-local blacklistViewCorners = Instance.new("UICorner")
-blacklistViewCorners.CornerRadius = UDim.new(0, 6)
-blacklistViewCorners.Parent = blacklistViewButton
-
-local blacklistViewFrame = Instance.new("ScrollingFrame")
-blacklistViewFrame.Size = UDim2.new(0, 130, 0, 0)
-blacklistViewFrame.Position = UDim2.new(0, 10, 0, 190)
-blacklistViewFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-blacklistViewFrame.BackgroundTransparency = 0
-blacklistViewFrame.BorderSizePixel = 0
-blacklistViewFrame.ScrollBarThickness = 4
-blacklistViewFrame.ScrollBarImageColor3 = Color3.fromRGB(200, 0, 0)
-blacklistViewFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
-blacklistViewFrame.Parent = contentArea
-blacklistViewFrame.Visible = false
-
-local blacklistViewFrameCorners = Instance.new("UICorner")
-blacklistViewFrameCorners.CornerRadius = UDim.new(0, 6)
-blacklistViewFrameCorners.Parent = blacklistViewFrame
-
-local blacklistViewLayout = Instance.new("UIListLayout")
-blacklistViewLayout.Padding = UDim.new(0, 2)
-blacklistViewLayout.Parent = blacklistViewFrame
-
 -- ===== VARIABLES =====
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
@@ -807,8 +470,6 @@ local whitelistTween = nil
 local lockAimOpen = false
 local lockAimTween = nil
 local aimPart = "Random"
-local blacklistViewOpen = false
-local blacklistViewTween = nil
 
 local COLOR_MID_RED = Color3.fromRGB(200, 0, 0)
 
@@ -881,233 +542,6 @@ fovCameraBox.FocusLost:Connect(function(enterPressed)
 end)
 
 Camera.FieldOfView = 70
-
--- ===== GLOBAL BLACKLIST FUNCTIONS =====
-local function updateBlacklistList()
-    -- Clear current list
-    for _, child in pairs(blacklistViewFrame:GetChildren()) do
-        if child:IsA("Frame") then
-            child:Destroy()
-        end
-    end
-    
-    local ySize = 0
-    for nick, data in pairs(globalBlacklist) do
-        local itemFrame = Instance.new("Frame")
-        itemFrame.Size = UDim2.new(1, -8, 0, 25)
-        itemFrame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
-        itemFrame.BackgroundTransparency = 0
-        itemFrame.BorderSizePixel = 0
-        itemFrame.Parent = blacklistViewFrame
-        
-        local itemCorner = Instance.new("UICorner")
-        itemCorner.CornerRadius = UDim.new(0, 4)
-        itemCorner.Parent = itemFrame
-        
-        -- Player name
-        local nameLabel = Instance.new("TextLabel")
-        nameLabel.Size = UDim2.new(1, -30, 1, 0)
-        nameLabel.Position = UDim2.new(0, 5, 0, 0)
-        nameLabel.BackgroundTransparency = 1
-        nameLabel.Text = nick
-        nameLabel.TextColor3 = Color3.fromRGB(255, 100, 100)
-        nameLabel.TextSize = 12
-        nameLabel.Font = Enum.Font.Gotham
-        nameLabel.TextXAlignment = Enum.TextXAlignment.Left
-        nameLabel.Parent = itemFrame
-        
-        -- X button to remove
-        local removeButton = Instance.new("TextButton")
-        removeButton.Size = UDim2.new(0, 20, 0, 20)
-        removeButton.Position = UDim2.new(1, -25, 0, 2.5)
-        removeButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-        removeButton.BackgroundTransparency = 0
-        removeButton.BorderSizePixel = 0
-        removeButton.Text = "×"
-        removeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        removeButton.TextSize = 16
-        removeButton.Font = Enum.Font.GothamBold
-        removeButton.Parent = itemFrame
-        
-        local removeCorner = Instance.new("UICorner")
-        removeCorner.CornerRadius = UDim.new(0, 10)
-        removeCorner.Parent = removeButton
-        
-        removeButton.MouseButton1Click:Connect(function()
-            globalBlacklist[nick] = nil
-            saveBlacklist(globalBlacklist)
-            updateBlacklistList()
-            showNotification("✅ Removed: " .. nick, Color3.fromRGB(0, 255, 0))
-        end)
-        
-        ySize = ySize + 27
-    end
-    
-    blacklistViewFrame.CanvasSize = UDim2.new(0, 0, 0, ySize)
-end
-
--- Function to add to blacklist (with validation)
-local function addToBlacklist(nick)
-    if not nick or nick == "" then
-        showNotification("❌ Enter a nickname!", Color3.fromRGB(255, 100, 100))
-        return
-    end
-    
-    -- Check if already on blacklist
-    for existingNick, _ in pairs(globalBlacklist) do
-        if existingNick:lower() == nick:lower() then
-            showNotification("⚠️ " .. existingNick .. " is already blacklisted!", Color3.fromRGB(255, 200, 0))
-            blacklistNickBox.Text = ""
-            return
-        end
-    end
-    
-    -- First check if online
-    local online, userId, correctNick = validateNickOnline(nick)
-    
-    if online then
-        -- Player is online, add directly
-        globalBlacklist[correctNick] = {
-            nick = correctNick,
-            userId = userId,
-            data = os.date("%Y-%m-%d %H:%M:%S")
-        }
-        saveBlacklist(globalBlacklist)
-        updateBlacklistList()
-        
-        -- Kick the player
-        local targetPlayer = Players:FindFirstChild(correctNick)
-        if targetPlayer then
-            targetPlayer:Kick("⛔ YOU HAVE BEEN BLACKLISTED!\nYou can no longer use this script.")
-        end
-        
-        showNotification("✅ Blacklisted: " .. correctNick, Color3.fromRGB(0, 255, 0))
-        blacklistNickBox.Text = ""
-        return
-    end
-    
-    -- If not online, try to validate on Roblox API
-    showNotification("🔍 Validating nickname on API...", Color3.fromRGB(255, 200, 0))
-    
-    coroutine.wrap(function()
-        -- Try POST method first
-        local valid, userId, correctNick, errorMsg = validateNickRoblox(nick)
-        
-        -- If it fails, try GET method
-        if not valid then
-            valid, userId, correctNick, errorMsg = validateNickRobloxGet(nick)
-        end
-        
-        if valid and correctNick then
-            -- Valid nickname on Roblox
-            -- Check again if already on blacklist (case insensitive)
-            for existingNick, _ in pairs(globalBlacklist) do
-                if existingNick:lower() == correctNick:lower() then
-                    showNotification("⚠️ " .. existingNick .. " is already blacklisted!", Color3.fromRGB(255, 200, 0))
-                    blacklistNickBox.Text = ""
-                    return
-                end
-            end
-            
-            globalBlacklist[correctNick] = {
-                nick = correctNick,
-                userId = userId,
-                data = os.date("%Y-%m-%d %H:%M:%S")
-            }
-            saveBlacklist(globalBlacklist)
-            updateBlacklistList()
-            
-            showNotification("✅ Blacklisted: " .. correctNick .. " (offline)", Color3.fromRGB(0, 255, 0))
-            blacklistNickBox.Text = ""
-        else
-            -- Invalid nickname
-            showNotification("❌ Invalid nickname: " .. nick, Color3.fromRGB(255, 100, 100))
-        end
-    end)()
-end
-
--- Function to kick player
-local function kickPlayer(nick)
-    if not nick or nick == "" then
-        showNotification("❌ Enter a nickname!", Color3.fromRGB(255, 100, 100))
-        return
-    end
-    
-    -- Search for player ignoring case
-    local targetPlayer = nil
-    for _, plr in pairs(Players:GetPlayers()) do
-        if plr.Name:lower() == nick:lower() then
-            targetPlayer = plr
-            break
-        end
-    end
-    
-    if targetPlayer then
-        targetPlayer:Kick("⛔ You have been kicked by an administrator!")
-        showNotification("✅ Kicked: " .. targetPlayer.Name, Color3.fromRGB(0, 255, 0))
-        kickNickBox.Text = ""
-        return
-    end
-    
-    -- If not online, show message
-    showNotification("⚠️ Player not found online!", Color3.fromRGB(255, 200, 0))
-end
-
--- Blacklist and kick button events
-blacklistOkButton.MouseButton1Click:Connect(function()
-    addToBlacklist(blacklistNickBox.Text)
-end)
-
--- Also allow pressing Enter in text field
-blacklistNickBox.FocusLost:Connect(function(enterPressed)
-    if enterPressed then
-        addToBlacklist(blacklistNickBox.Text)
-    end
-end)
-
-kickOkButton.MouseButton1Click:Connect(function()
-    kickPlayer(kickNickBox.Text)
-end)
-
-kickNickBox.FocusLost:Connect(function(enterPressed)
-    if enterPressed then
-        kickPlayer(kickNickBox.Text)
-    end
-end)
-
--- Blacklist view tween
-local function toggleBlacklistView()
-    blacklistViewOpen = not blacklistViewOpen
-    
-    if blacklistViewTween then
-        blacklistViewTween:Cancel()
-    end
-    
-    if blacklistViewOpen then
-        blacklistViewButton.Text = "BLACKLIST ▲"
-        blacklistViewFrame.Visible = true
-        
-        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-        blacklistViewTween = TweenService:Create(blacklistViewFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 140)})
-        blacklistViewTween:Play()
-        
-        updateBlacklistList()
-    else
-        blacklistViewButton.Text = "BLACKLIST ▼"
-        
-        local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
-        blacklistViewTween = TweenService:Create(blacklistViewFrame, tweenInfo, {Size = UDim2.new(0, 130, 0, 0)})
-        blacklistViewTween:Play()
-        
-        blacklistViewTween.Completed:Connect(function()
-            if not blacklistViewOpen then
-                blacklistViewFrame.Visible = false
-            end
-        end)
-    end
-end
-
-blacklistViewButton.MouseButton1Click:Connect(toggleBlacklistView)
 
 -- ===== WHITELIST FUNCTIONS =====
 local function updatePlayerList()
@@ -1505,21 +939,16 @@ local selectedColor = COLOR_MID_RED
 local hoverColor = Color3.fromRGB(60, 60, 60)
 local tabNames = {"HOME", "CONFIG", "HELP", "ABOUT"}
 
--- Add DEVELOPER tab only for misterio_390
-if player.Name == "misterio_390" then
-    tabNames = {"HOME", "CONFIG", "DEVELOPER", "HELP", "ABOUT"}
-end
-
 for i = 1, #tabNames do
     local btn = Instance.new("TextButton")
-    btn.Size = UDim2.new(0, 140, 0, 40)
-    btn.Position = UDim2.new(0, 15, 0, 45 + (i-1) * 50)
+    btn.Size = UDim2.new(0, 140, 0, 50)
+    btn.Position = UDim2.new(0, 15, 0, 45 + (i-1) * 60)
     btn.BackgroundColor3 = normalColor
     btn.BackgroundTransparency = 0
     btn.BorderSizePixel = 0
     btn.Text = tabNames[i]
     btn.TextColor3 = Color3.fromRGB(255, 255, 255)
-    btn.TextSize = 14
+    btn.TextSize = 16
     btn.Font = Enum.Font.GothamBold
     btn.TextXAlignment = Enum.TextXAlignment.Center
     btn.Parent = menu
@@ -1553,15 +982,6 @@ for i = 1, #tabNames do
         fovSizeBox.Visible = false
         fovCameraLabel.Visible = false
         fovCameraBox.Visible = false
-        blacklistNickLabel.Visible = false
-        blacklistNickBox.Visible = false
-        blacklistOkButton.Visible = false
-        kickNickLabel.Visible = false
-        kickNickBox.Visible = false
-        kickOkButton.Visible = false
-        blacklistViewButton.Visible = false
-        blacklistViewFrame.Visible = false
-        notification.Visible = false
         
         -- Reset states
         if whitelistOpen then
@@ -1578,14 +998,6 @@ for i = 1, #tabNames do
             if lockAimTween then lockAimTween:Cancel() end
             lockAimFrame.Size = UDim2.new(0, 130, 0, 0)
             lockAimFrame.Visible = false
-        end
-        
-        if blacklistViewOpen then
-            blacklistViewOpen = false
-            blacklistViewButton.Text = "BLACKLIST ▼"
-            if blacklistViewTween then blacklistViewTween:Cancel() end
-            blacklistViewFrame.Size = UDim2.new(0, 130, 0, 0)
-            blacklistViewFrame.Visible = false
         end
         
         -- Reset positions
@@ -1605,15 +1017,6 @@ for i = 1, #tabNames do
             fovSizeBox.Visible = true
             fovCameraLabel.Visible = true
             fovCameraBox.Visible = true
-        elseif btn.Text == "DEVELOPER" then
-            blacklistNickLabel.Visible = true
-            blacklistNickBox.Visible = true
-            blacklistOkButton.Visible = true
-            kickNickLabel.Visible = true
-            kickNickBox.Visible = true
-            kickOkButton.Visible = true
-            blacklistViewButton.Visible = true
-            updateBlacklistList()
         else
             defaultText.Visible = true
         end
@@ -1644,14 +1047,6 @@ end)
 
 -- ===== PLAYER EVENTS =====
 Players.PlayerAdded:Connect(function(plr)
-    -- Check blacklist
-    for nick, data in pairs(globalBlacklist) do
-        if nick:lower() == plr.Name:lower() or (data.userId and data.userId == plr.UserId) then
-            plr:Kick("⛔ YOU ARE BLACKLISTED FROM THIS SCRIPT!\nReason: Unauthorized use detected.\nAccount permanently blocked.")
-            return
-        end
-    end
-    
     plr.CharacterAdded:Connect(function(character)
         task.wait(0.5)
         if espActive then applyESP(plr) end
@@ -1682,9 +1077,5 @@ print("- LOCK AIM CONFIG: Torso/Head/Random")
 print("- SMOOTH: 1-144%")
 print("- FOV SIZE: 0-200%")
 print("- FOV CONFIG: 0-120 (Camera FOV)")
-if player.Name == "misterio_390" then
-    print("- DEVELOPER: Blacklist/Kick (Admin)")
-    print("- VALIDATION: Nicknames verified on Roblox API")
-end
 print("- ANIMATION: White lines ONLY on red elements")
 print("========================================")
